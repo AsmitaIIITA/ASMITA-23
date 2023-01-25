@@ -4374,6 +4374,7 @@ nav.active + .overlay {
     z-index: 2;
     transform: rotate(-45deg);
     transition: 0.75s;
+    cursor: pointer;
 }
 .gallery-close-icon {
     background: #fff;
