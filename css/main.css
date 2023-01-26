@@ -1,0 +1,40 @@
+h1{
+    font-family:'Montserrat';
+    text-align: center;
+    color:black;
+    text-align: left;
+    margin-left: 2em;
+    font-size: 4rem;
+
+}
+.s1{
+    background:url('../gallery-folder/gallery/img/volleyball_3.jpg');
+    background-size: cover;
+}
+
+.s2{
+    background:url('../gallery-folder/gallery/img/volleyball_2.jpg');
+    background-size: cover;
+}
+
+.s3{
+    background:url('../gallery-folder/gallery/img/volleyball_3.jpg');
+    background-size: cover;
+}
+
+.s4{
+    background:url('../gallery-folder/gallery/img/volleyball_2.jpg');
+    background-size: cover;
+}
+
+.span{
+    background: white !important;
+}
+
+.fp-watermark{
+    display: none !important;
+}
+
+#footer{
+    padding-bottom: 0px !important;
+}
