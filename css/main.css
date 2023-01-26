@@ -120,7 +120,7 @@ a{
 	background-color: #ffffff;
 }
 
-#temp {
+#aboutt {
 	background:url("../gallery-folder/img/Group\ 37352.png") no-repeat;
     background-position: 0 -50px;
     
@@ -129,7 +129,7 @@ a{
 .section {
 	height: 100vh;
 }
-.content-l {
+.content-about {
 	display: flex;
     font-family:Georgia, 'Times New Roman', Times, serif;
 	height: 100vh;
