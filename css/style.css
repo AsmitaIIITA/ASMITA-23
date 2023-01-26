@@ -13,10 +13,10 @@
    font-size: 64px;
    line-height: 75px;
    letter-spacing: 0em;
-   
+
    text-align: center;
    color: #FFFFFF;
-   margin-bottom: 3rem;  
+   margin-bottom: 3rem;
 }
 
 .img-sponsor {
@@ -30,21 +30,21 @@
    font-weight: normal;
    font-size: 64px;
    line-height: 94px;
-   
+
    color: #FFFFFF;
-   margin:auto;
-   margin-top:23rem;
+   margin: auto;
+   margin-top: 23rem;
 }
 
 .img-team {
    background: url(../assets/images/team.jpg);
    background-repeat: no-repeat;
-   background-size:cover;
+   background-size: cover;
    background-position: 50%;
    min-height: 100vh;
 }
 
-.img-event {
+/* .img-event {
    background-image: url(../assets/images/image\ 4.png);
    background-repeat: no-repeat;
    background-size:cover;
@@ -52,7 +52,8 @@
    min-height: 100vh;
 }
 
-.p2{
+*/
+.p2 {
    font-family: 'Open Sans', sans-serif;
    font-style: normal;
    font-weight: bold;
@@ -60,7 +61,7 @@
    line-height: 75px;
    font-weight: 700;
    letter-spacing: 0em;
-   
+
    padding-top: 15rem;
 
    text-align: center;
@@ -75,13 +76,13 @@
    display: inline-block;
    font-size: 16px;
    cursor: pointer;
-   
+
    font-family: 'Open Sans', sans-serif;
    font-style: normal;
    font-weight: bold;
    font-size: 24px;
    line-height: 28px;
-   
+
    color: #FFFFFF;
 
    margin-top: 2rem;
@@ -93,10 +94,10 @@
    right: 0%;
    top: 34%;
    background-size: 40px 40px;
-   width: 40px; 
+   width: 40px;
    height: 40px;
    border-radius: 50%;
-   content:"";
+   content: "";
 }
 
 .owl-carousel .owl-nav .owl-prev:after {
@@ -105,14 +106,16 @@
    top: 34%;
    left: 0%;
    background-size: 40px 40px;
-   width: 40px; 
+   width: 40px;
    height: 40px;
    border-radius: 50%;
-   content:"";
+   content: "";
 }
-.gamename{
+
+.gamename {
    padding: 10px;
 }
+
 .gamename:after {
    position: absolute;
    content: "";
@@ -123,26 +126,145 @@
    left: 6.5%;
 }
 
-.contact{
+.contact {
    font-size: 30px;
 }
-.sub-head-contact{
+
+.sub-head-contact {
    font-size: 26px;
    text-align: center;
 }
-.sub-para{
+
+.sub-para {
    font-size: 14px;
 
 }
-.row{
-   margin: 0!important;
+
+.row {
+   margin: 0 !important;
 }
 
-footer{
+footer {
    padding-bottom: 2rem;
 }
 
-@media (max-width: 768px) {  
+.gallary {
+   background-color: white;
+   padding-top: 100px;
+   height: 800px;
+}
+
+.gallary h1 {
+   position: relative;
+   margin-left: 10%;
+   top: 30px;
+   font-weight: 700;
+}
+
+#map {
+   position: relative;
+   float: right;
+   right: 8%;
+   top: 500px;
+   width: 420px;
+   height: 500px;
+}
+
+.gpics {
+   margin-top: 100px;
+}
+
+.hero {
+   min-height: 15rem;
+   width: 100%;
+   position: relative;
+   overflow: hidden;
+}
+
+.hero-bg {
+   background-color: rgba(0, 0, 0, 0.7);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.hero-highlight {
+   position: absolute;
+   width: 100%;
+   height: 200%;
+   bottom: -100%;
+   right: -50vw;
+   transform: rotateZ(-37deg);
+   background-color: #f23a2e;
+}
+
+.hero-title {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   padding: 0 5rem;
+}
+
+.hero-title h3 {
+   color: #ffffff;
+   font-weight: semibold;
+   font-size: 5rem;
+}
+
+.events-bg {
+   background-image: url(../assets/images/bg1.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-y: 10%;
+}
+
+.page-footer{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 2rem 4rem;
+}
+
+.footer-section{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.footer-logo{
+   width: 10rem;
+   height: 10rem;
+}
+
+.footer-heading-2{
+   font-size: 3rem;
+   font-weight: 700;
+}
+
+.footer-heading-4 {
+   font-size: 2rem;
+   font-weight: 600;
+}
+.f-cp-h{
+   font-weight: 600;
+}
+.f-sm-cont{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 1rem;
+   margin-bottom: 0.5rem;
+}
+
+.f-sm-link:hover {
+   opacity: 0.7;
+}
+
+@media (max-width: 768px) {
    .p3 {
       font-size: 36px;
       line-height: 42px;
@@ -161,14 +283,23 @@ footer{
       margin-top: 1rem;
       padding: 5px 30px;
    }
+
    .owl-carousel .owl-nav .owl-next:after {
       right: 1%;
       top: 26%;
    }
-   
+
    .owl-carousel .owl-nav .owl-prev:after {
       top: 26%;
       left: 1%;
+   }
+
+   .hero-highlight {
+      display: none;
+   }
+
+   .hero-title {
+      justify-content: center;
    }
 }
 
@@ -185,67 +316,41 @@ footer{
 
 }
 
-.gallary{
-   background-color: white;
-   padding-top: 100px;
-   height: 800px;
-}
-
-.gallary h1{
-   position: relative;
-   margin-left:10%;
-   top:30px;
-   font-weight: 700;
-}
-
-#map{
-   position: relative;
-   float: right;
-   right:8%;
-   top: 500px;
-   width: 420px;
-   height:500px;
-}
-
-.gpics{
-   margin-top: 100px;
-}
-
 @media only screen and (max-width: 480px) {
-   #runningman{
+   #runningman {
       display: none;
    }
 
-   #asmitalogo{
+   #asmitalogo {
       margin-top: -10%;
    }
 
-   #date{
-      margin-top:0% !important;
-      left:27%;
+   #date {
+      margin-top: 0% !important;
+      left: 27%;
       font-size: 18px;
    }
 
-   #about h1{
+   #about h1 {
       font-size: 25px;
       text-align: center;
    }
 
-   #about p{
+   #about p {
       font-size: 15px;
       text-align: center;
       padding-top: 20px;
    }
 
-   #about button{
+   #about button {
       transform: scale(0.7);
       margin-top: 40% !important;
    }
 
-   #map{
-      width:280px;
-      height:300px;
-      right:10%;
+   #map {
+      width: 280px;
+      height: 300px;
+      right: 10%;
       margin-top: 40%;
    }
 }
