@@ -123,12 +123,11 @@ a{
 #aboutt {
 	background:url("../gallery-folder/img/Group\ 37352.png") no-repeat;
     background-position: 0 -50px;
+	height:100vh;
     
 }
 
-.section {
-	height: 100vh;
-}
+
 .content-about {
 	display: flex;
     font-family:Georgia, 'Times New Roman', Times, serif;
