@@ -18,7 +18,7 @@ h1{
 }
 
 .s3{
-    background:url('../gallery-folder/gallery/img/volleyball_3.jpg');
+    background:url('../gallery-folder/img/4.png');
     background-size: cover;
 }
 
@@ -28,7 +28,7 @@ h1{
 }
 
 .span{
-    background: white !important;
+    background: rgb(0, 0, 0) !important;
 }
 
 .fp-watermark{
@@ -156,4 +156,30 @@ a{
 	padding: 2vw;
 	text-align: justify;
 	font-size: 1.5em;
+}
+.photo{
+    height:80vh;
+    width:89%;
+    scale:calc(93%);
+    margin-left:4rem;
+    margin-right:4rem;
+    margin-top:0.5rem;
+}
+.titleofgallery{
+
+    font-weight:bold;
+    text-align: center;
+    font-family:"Playfair Display",serif;
+    font-size:3.2em;
+  
+}
+.slide{
+   text-align: center;
+   
+}
+.fp-arrow.fp-prev {
+    border-color: transparent black transparent transparent!important;
+}
+.fp-arrow.fp-next {
+    border-color: transparent transparent transparent black!important;
 }
