@@ -30,3 +30,11 @@ h1{
 .span{
     background: white !important;
 }
+
+.fp-watermark{
+    display: none !important;
+}
+
+#footer{
+    padding-bottom: 0px !important;
+}

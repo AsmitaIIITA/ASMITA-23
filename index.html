@@ -134,7 +134,8 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-color">
+    <div id="fullPage">
+    <nav class="section fp-auto-height navbar navbar-expand-lg navbar-dark bg-color">
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <button
         class="navbar-toggler"
@@ -292,7 +293,6 @@
             </ul>
         </div> -->
     <!---Sponsor Us Box-->
-    <div id="fullPage">
       <div class="section s1">
         <h1>The first section</h1>
       </div>
@@ -314,26 +314,7 @@
       <div class="section s4">
         <h1>The fourth section</h1>
       </div>
-    </div>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.js"
-      integrity="sha512-rNf09cQHIWzD8BU37lIb3rInygeWXW2hVqJ7niVtTPXWuVR3aFiph1eFIeDiEQV8J45u0qfp7ng8I3TzJHY4Eg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-
-    <script>
-      new fullpage("#fullPage", {
-        autoScrolling: true,
-        navigation: true,
-        showActiveToolTip:true,
-        scrollingSpeed:1000
-      });
-    </script>
-
-    <!-- Footer -->
-    <footer class="page-footer bg-color" id="footer">
+      <footer class="page-footer section fp-auto-height bg-color" id="footer">
       <div class="text-center text-md-left mt-5">
         <br />
         <div class="row">
@@ -400,6 +381,26 @@
         </div>
       </div>
     </footer>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.js"
+      integrity="sha512-rNf09cQHIWzD8BU37lIb3rInygeWXW2hVqJ7niVtTPXWuVR3aFiph1eFIeDiEQV8J45u0qfp7ng8I3TzJHY4Eg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      new fullpage("#fullPage", {
+        autoScrolling: true,
+        navigation: true,
+        showActiveToolTip:true,
+        scrollingSpeed:1000
+      });
+    </script>
+
+    <!-- Footer -->
+    
     <!-- Footer -->
     <!-- JQuery -->
 
@@ -487,3 +488,4 @@
     </script>
   </body>
 </html>
+
