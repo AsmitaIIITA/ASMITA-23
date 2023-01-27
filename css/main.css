@@ -7,9 +7,51 @@ h1{
     font-size: 4rem;
 
 }
-.s1{
-    background:url('../gallery-folder/gallery/img/volleyball_3.jpg');
-    background-size: cover;
+
+.hero-new{
+	display: flex;
+	flex-direction: row;
+}
+
+.anim1{
+	height: 80vh;
+	margin: auto 0;
+	width: fit-content;	
+}
+
+.home-hero-content{
+	display: flex;
+	flex-direction: column;
+	flex-grow: initial;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+.home-hero-title{
+	display: flex;
+	flex-direction: row;
+	/* width: 100%; */
+	align-items: center;
+}
+.home-hero-title-img{
+	width: 8rem;
+}
+.home-hero-title-heading{
+	font-size: 8rem;
+	color: #ffffff;
+	margin: 0;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home-hero-caption{font-size: 2rem;
+	color: #ffffff;
+
+}
+
+@media (max-width: 768px){
+	.anim1{
+		display: none;
+	}
 }
 
 .s2{
@@ -157,12 +199,14 @@ a{
 	font-size: 1.5em;
 }
 .photo{
-    height:80vh;
+    /* height:80vh;
     width:89%;
-    scale:calc(93%);
     margin-left:4rem;
     margin-right:4rem;
-    margin-top:0.5rem;
+    margin-top:0.5rem; */
+	margin: 0.5rem 4rem;
+	max-width: calc(100% - 8rem);
+	max-height: 80vh;
 }
 .titleofgallery{
 
@@ -174,11 +218,16 @@ a{
 }
 .slide{
    text-align: center;
-   
+   display: flex;
+   flex-direction: column;
 }
 .fp-arrow.fp-prev {
     border-color: transparent black transparent transparent!important;
 }
 .fp-arrow.fp-next {
     border-color: transparent transparent transparent black!important;
+}
+
+.s1{
+	display: block !important;
 }
