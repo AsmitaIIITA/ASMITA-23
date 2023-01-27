@@ -35,40 +35,40 @@ let data = [
         category: "athletics"
     },
 
-    {
-        title: "200m",
-        description: "The 200 metres, or 200-meter dash, is a sprint running event.",
-        img: "/assets/images/athletics.jpg",
-        category: "athletics"
-    },
+    // {
+    //     title: "200m",
+    //     description: "The 200 metres, or 200-meter dash, is a sprint running event.",
+    //     img: "/assets/images/athletics.jpg",
+    //     category: "athletics"
+    // },
 
-    {
-        title: "400m",
-        description: "The 400m race is exactly one lap of a standard outdoor running track. Starting in staggered positions, the athletes run the entire race in a designated lane.",
-        img: "/assets/images/athletics.jpg",
-        category: "athletics"
-    },
+    // {
+    //     title: "400m",
+    //     description: "The 400m race is exactly one lap of a standard outdoor running track. Starting in staggered positions, the athletes run the entire race in a designated lane.",
+    //     img: "/assets/images/athletics.jpg",
+    //     category: "athletics"
+    // },
 
-    {
-        title: "800m",
-        description: "The 800 metres, or meters, is a common track running event. It is the shortest commonly run middle-distance running event.",
-        img: "/assets/images/athletics.jpg",
-        category: "athletics"
-    },
+    // {
+    //     title: "800m",
+    //     description: "The 800 metres, or meters, is a common track running event. It is the shortest commonly run middle-distance running event.",
+    //     img: "/assets/images/athletics.jpg",
+    //     category: "athletics"
+    // },
 
-    {
-        title: "1500m",
-        description: "the 1500m is the marquee middle-distance event. Demanding a balance of aerobic and anaerobic conditioning, athletes complete three-and-three-quarter laps of a standard 400m track.",
-        img: "/assets/images/athletics.jpg",
-        category: "athletics"
-    },
+    // {
+    //     title: "1500m",
+    //     description: "the 1500m is the marquee middle-distance event. Demanding a balance of aerobic and anaerobic conditioning, athletes complete three-and-three-quarter laps of a standard 400m track.",
+    //     img: "/assets/images/athletics.jpg",
+    //     category: "athletics"
+    // },
 
-    {
-        title: "3000m",
-        description: "The 3000 metres or 3000-metre run is a track running event, also commonly known as the 3K or 3K run",
-        img: "/assets/images/athletics.jpg",
-        category: "athletics"
-    },
+    // {
+    //     title: "3000m",
+    //     description: "The 3000 metres or 3000-metre run is a track running event, also commonly known as the 3K or 3K run",
+    //     img: "/assets/images/athletics.jpg",
+    //     category: "athletics"
+    // },
 
     {
         title: "100x4m",
