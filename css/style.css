@@ -448,39 +448,7 @@ a {
     background-color: #ffffff;
 }
 
-#aboutt {
-    background: url("../gallery-folder/img/Group\ 37352.png") no-repeat;
-    background-position: 0 -50px;
-    height: 100vh;
-}
 
-.content-about {
-    display: flex;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    height: 100vh;
-    width: 39vw;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin-left: 55rem;
-}
-.title {
-    font-family: "Playfair Display", serif;
-    width: 100%;
-    font-size: 3em;
-    font-weight: bold;
-    text-align: center;
-    color: black !important;
-}
-
-.desc {
-    padding: 2vw;
-    text-align: justify;
-    font-size: 1.5em;
-}
 .photo {
     height: 80vh;
     width: 89%;
