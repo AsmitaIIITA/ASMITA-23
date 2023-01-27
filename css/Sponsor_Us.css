@@ -20,7 +20,7 @@ ul li a {
     color: #ffffff;
     text-decoration: none;
 }
-#sponsor {
+#sponsor2 {
     margin-top: 5vw;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -40,7 +40,7 @@ ul li a {
     color: #e5e5e5;
 }
 #download {
-    width: 15vw;
+    width: 12vw;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -48,9 +48,9 @@ ul li a {
     margin: auto;
     text-decoration: none;
     line-height: 2rem;
-    background: #354089;
+    background: #4b80e1;
     padding: 1rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     color: #ffffff;
 }
 ul {
