@@ -2,21 +2,149 @@ let data = [
     {
         title: "Cricket",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
-        img: "/assets/images/bg1.webp",
-        category: "cricket"
+        img: "/assets/images/cricket.jpg",
+        category: "teamevents"
     },
     {
-        title: "Badminton (M)",
+        title: "Football",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
-        img: "/assets/images/bg1.webp",
-        category: "badminton"
+        img: "/assets/images/football.jpg",
+        category: "teamevents"
+    },
+
+    {
+        title: "Volleyball",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/volleyball.jpg",
+        category: "teamevents"
+    },
+
+
+    {
+        title: "Basketball",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/basketball.jpg",
+        category: "teamevents"
+    },
+
+
+    {
+        title: "100m",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/athletics.jpg",
+        category: "athletics"
+    },
+
+    {
+        title: "200m",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/athletics.jpg",
+        category: "athletics"
+    },
+
+    {
+        title: "400m",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/athletics.jpg",
+        category: "athletics"
+    },
+
+    {
+        title: "800m",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/athletics.jpg",
+        category: "athletics"
+    },
+
+    {
+        title: "1500m",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/athletics.jpg",
+        category: "athletics"
+    },
+
+    {
+        title: "3000m",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/athletics.jpg",
+        category: "athletics"
+    },
+
+    {
+        title: "100x4m",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/athletics.jpg",
+        category: "athletics"
+    },
+
+    {
+        title: "Relay",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/athletics.jpg",
+        category: "athletics"
+    },
+
+    {
+        title: "Javelin Throw",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/javelinThrow.jpg",
+        category: "athletics"
+    },
+
+    {
+        title: "Shotput",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/shotput.jpg",
+        category: "athletics"
+    },
+
+    {
+        title: "Longjump",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/longJump.jpg",
+        category: "athletics"
+    },
+
+
+    {
+        title: "Free Style",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/swimming.jpg",
+        category: "aquatics"
+    },
+
+    {
+        title: "Backstroke",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/swimming.jpg",
+        category: "aquatics"
+    },
+
+    {
+        title: "Butterfly",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/swimming.jpg",
+        category: "aquatics"
+    },
+
+    {
+        title: "Benchpress",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/powerlifting.jpg",
+        category: "Powerlifting"
     },
     {
-        title: "Badminton (W)",
+        title: "Deadlift",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
-        img: "/assets/images/bg1.webp",
-        category: "badminton"
-    }
+        img: "/assets/images/powerlifting.jpg",
+        category: "Powerlifting"
+    },
+    {
+        title: "Squats",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+        img: "/assets/images/powerlifting.jpg",
+        category: "Powerlifting"
+    },
 ]
 
 function setSection(data) {
