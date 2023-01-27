@@ -1,10 +1,9 @@
-.box {
+.cover {
   margin-top: -8vw;
   margin-bottom: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   width: 51vw;
   border-radius: 10px;
   margin-left: 25vw;
@@ -12,9 +11,11 @@
   z-index: 2;
   text-align: center;
 }
+
 ul li {
   list-style: none;
 }
+
 ul li a {
   color: #ffffff;
   text-decoration: none;
@@ -57,7 +58,7 @@ ul{
 }
 
 @media screen and (max-width: 600px) {
-  .box {
+  .cover {
     left: 2.5vw;
     margin-bottom: -15vw;
     width: 90vw;
@@ -87,7 +88,7 @@ ul{
 }
 
 @media screen and (max-width: 480px) {
-  .box {
+  .cover {
     margin-top: -30%;
   }
 }
