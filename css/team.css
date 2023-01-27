@@ -214,7 +214,7 @@ p + p {
     overflow: hidden;
     border-radius: 10px 10px 0 0;
 }
-
+/* 
 .card-info {
     padding: 15px;
     position: absolute;
@@ -257,7 +257,7 @@ p + p {
 
 .container-cards a:nth-child(3) {
     transition: 1s ease-out all;
-}
+} */
 
 .fab {
     transition: inherit;
@@ -308,9 +308,6 @@ p span {
 
 .line {
     border-top: 0.1px solid rgba(0, 0, 0, 0.1);
-}
-
-.fab:hover {
 }
 
 .flex-center-center {
