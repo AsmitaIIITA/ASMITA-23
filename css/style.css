@@ -163,16 +163,11 @@ footer {
 #map {
     position: relative;
     float: right;
-    width: 30vw;
-    height: 30vw;
+    width: 40vw;
+    height: 40vw;
 }
 
 @media (max-width: 960px) {
-    #map {
-        width: 40vh;
-        height: 40vh;
-        max-width: 90vw;
-    }
 }
 
 .gpics {
@@ -275,6 +270,11 @@ footer {
         line-height: 42px;
 
         margin-top: 12rem;
+    }
+    #map {
+        width: 40vh;
+        height: 40vh;
+        max-width: 90vw;
     }
 
     .p2 {
