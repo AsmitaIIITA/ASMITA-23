@@ -167,8 +167,8 @@ footer {
     height: 30vw;
 }
 
-@media (max-width: 960px){
-    #map{
+@media (max-width: 960px) {
+    #map {
         width: 40vh;
         height: 40vh;
         max-width: 90vw;
@@ -350,7 +350,8 @@ footer {
         transform: scale(0.7);
         margin-top: 40% !important;
     }
-/* 
+
+    /* 
     #map {
         width: 280px;
         height: 300px;
@@ -358,6 +359,7 @@ footer {
         margin-top: 40%;
     } */
 }
+
 /* FOOTER */
 .containerrr {
     justify-content: center;
@@ -365,6 +367,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
+
 .footer-row {
     display: flex;
     flex-wrap: wrap;
@@ -376,17 +379,21 @@ ul {
     list-style: none;
     margin-left: 2rem;
 }
+
 .section {
     width: 100%;
 }
+
 .footer {
     background-color: #24262b;
     padding: 60px 0;
 }
+
 .footer-col {
     width: 25%;
     /* padding: 0 15px; */
 }
+
 .footer-col h4 {
     font-size: 18px;
     color: #ffffff;
@@ -396,6 +403,7 @@ ul {
     position: relative;
     padding-left: 34px;
 }
+
 .footer-col h4::before {
     content: "";
     position: absolute;
@@ -407,13 +415,16 @@ ul {
     width: 100px;
     margin-left: 34px;
 }
+
 a {
     text-decoration: none !important;
     color: #fff !important;
 }
+
 .footer-col ul li {
     margin-bottom: 10px;
 }
+
 .footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
@@ -424,6 +435,7 @@ a {
     display: block;
     transition: all 0.3s ease;
 }
+
 .footer-col ul li a:hover {
     color: #ffffff;
     padding-left: 8px;
@@ -449,6 +461,7 @@ a {
     color: #ffffff;
     transition: all 0.5s ease;
 }
+
 .footer-col .social-links a:hover {
     color: #24262b;
     background-color: #ffffff;
@@ -463,32 +476,38 @@ a {
     margin-right: 4rem;
     margin-top: 0.5rem;
 }
+
 .titleofgallery {
     font-weight: bold;
     text-align: center;
     font-family: "Playfair Display", serif;
     font-size: 3.2em;
 }
+
 .slide {
     text-align: center;
 }
+
 .fp-arrow.fp-prev {
     border-color: transparent black transparent transparent !important;
 }
+
 .fp-arrow.fp-next {
     border-color: transparent transparent transparent black !important;
 }
+
 @media screen and (max-width: 700px) {
     .footer-row {
         flex-direction: column;
         width: 100%;
     }
+
     .footer-col {
         width: 100%;
     }
 }
 
-.buttonss{
+.buttonss {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
