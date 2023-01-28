@@ -92,7 +92,7 @@
   <body>
     <div id="fullPage">
       <div class="section s0">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-color">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-color" style="position: fixed; z-index: 100;">
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -499,25 +499,29 @@
       <div class="section s4">
 		<div class="boxs">
         <div class="right">
-			<div class="heading">
+			<div class="heading" style="text-align: left;">
 				How to reach IIITA
 			</div>
 			<div class="description">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsam temporibus, quam soluta rerum eos quidem perspiciatis quae inventore impedit vitae animi cum voluptate fugit dolorem sapiente repellendus. Quibusdam, accusamus.
+        The IIITA campus is located at Devghat Jhalwa (Peepalgaon Road), which is on the outskirts of Allahabad. It is 10 km
+        from the town center and 7 km from the main railway station.
+        
+        The Allahabad ciy is well connected by air, rail and road to near by metros.
+        
+        Railway services to this city from all the mega cities of the coutry are excellent and quite confortable.
 			</div>
 			
 		</div>
-		<div class="left">
-			<div class="laptop">
+			<!-- <div class="laptop">
 				<div style="max-width:100%;overflow:hidden;color:red;width:600px;height:500px;"><div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Indian+Institute+of+Information+Technology,+Allahabad,+Indian+Institute+of+Information+Technology,+Jhalwa,+Prayagraj,+Uttar+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="our-googlemap-code" href="https://www.bootstrapskins.com/themes" id="authorize-map-data">premium bootstrap themes</a><style>#embed-map-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
 			</div>
 			<div class="phone">
 				<div style="max-width:100%;overflow:hidden;color:red;width:300px;height:400px;"><div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Indian+Institute+of+Information+Technology,+Allahabad,+Indian+Institute+of+Information+Technology,+Jhalwa,+Prayagraj,+Uttar+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="our-googlemap-code" href="https://www.bootstrapskins.com/themes" id="authorize-map-data">premium bootstrap themes</a><style>#embed-map-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
-			</div>
-		</div>
+			</div> -->
+      <div id='map'></div>
 		</div>
       </div>
-	  
+<!-- 	  
 	  <div class="section s6" style="text-align: center;">
       <div class="heading">
 				A Virtual Voyage
@@ -544,35 +548,43 @@
 				></iframe>
 				</div>
 			
-		</div>
+		</div> -->
 
     <div class="section s7">
-		<div class="boxs">
-        <div class="left">
+      <img id="sponsorr" src="./assets/images/sponsor.png">
+		<div class="boxs" style="position: absolute; top: 50%; transform: translateY(-50%); justify-content: flex-start;">
+      <div class="right" style="padding: 4rem;">
+        <div class="heading" style="text-align: left;">
+          Sponsor Us
+        </div>
+        <div class="description">
+          Asmita is a 100 percent non profit student run organisation with more than 120+ colleges participating every year and
+          organising more than 100 year round events. We organise 20+ events of corporate and social responsibility.
+        </div>
+        <div class="buttonss">
+          <button class="downloaded">Download</button>
+          <button class="brochuree">Brochure</button>
+        </div>
+      
+      </div>
+      <!-- <div class="left" style="max-width: 50vw; padding: 4rem;">
 			<div class="heading2">
 				Sponsor Us
 			</div>
 			<div class="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        <br> Integer sed ultricies risus, eu dictum leo. Duis felis diam.
-        <br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        <br> Integer sed ultricies risus, eu dictum leo. Duis felis diam.
+      Asmita is a 100 percent non profit student run organisation with more than 120+ colleges participating every year and
+      organising more than 100 year round events. We organise 20+ events of corporate and social responsibility.
 			</div>
       <div class="buttonss">
         <button class="downloaded">Download</button>
         <button class="brochuree">Brochure</button>
       </div>
-      
+       -->
 
 		</div>
-		<div class="right">
-			<img id="sponsorr" src="./assets/images/sponsor.png">
-    </div>
 			
 			
         </div>
-		</div>
 
       <div class="section s5 fp-auto-height">
       <footer class="footer"id="footer">
@@ -620,6 +632,7 @@
           </div>
         <!-- </div> -->
       </footer>
+    </div>
     </div>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.js"
@@ -684,7 +697,7 @@
           zoom: 17,
           pitch: 40, // pitch in degrees
         });
-
+-
         map.addControl(
           new MapboxDirections({
             accessToken: mapboxgl.accessToken,
