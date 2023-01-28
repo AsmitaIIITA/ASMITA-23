@@ -86,7 +86,6 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css"
             rel="stylesheet"
         />
-        
     </head>
 
     <body>
@@ -172,7 +171,7 @@
                         onchange="onTabSelect(this, event)"
                     />
                     <label for="all">All</label> -->
-                    
+
                     <input
                         type="radio"
                         id="aquatics"
@@ -181,7 +180,6 @@
                         onchange="onTabSelect(this, event)"
                     />
                     <label for="aquatics">Aquatics</label>
-                    
 
                     <input
                         type="radio"
@@ -191,8 +189,6 @@
                         onchange="onTabSelect(this, event)"
                     />
                     <label for="athletics">Athletics</label>
-                    
-                    
 
                     <input
                         type="radio"
@@ -202,8 +198,15 @@
                         onchange="onTabSelect(this, event)"
                     />
                     <label for="teamevents">Team Events</label>
-                    
-                    
+
+                    <input
+                        type="radio"
+                        id="Solo"
+                        name="category"
+                        value="Solo"
+                        onchange="onTabSelect(this, event)"
+                    />
+                    <label for="Solo">Solo</label>
                     <input
                         type="radio"
                         id="Powerlifting"
@@ -212,12 +215,10 @@
                         onchange="onTabSelect(this, event)"
                     />
                     <label for="Powerlifting">Powerlifting</label>
-                    
                 </div>
             </div>
 
-            <section class="sports-container" id="sports-container">
-            </section>
+            <section class="sports-container" id="sports-container"></section>
         </main>
 
         <div class="section s5 fp-auto-height">

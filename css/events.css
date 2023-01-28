@@ -1,161 +1,161 @@
 body {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .tabbar-container {
-  width: 100%;
-  min-height: 3rem;
-  background-color: #0F1322;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    min-height: 3rem;
+    background-color: #0f1322;
+    display: flex;
+    justify-content: center;
 }
 
 .tabbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .tabbar input {
-  display: none;
+    display: none;
 }
 
 .tabbar label {
-  margin-bottom: 0;
-  color: #ffffff;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 0;
+    color: #ffffff;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
 }
 
-.tabbar input:checked+label {
-  background-color: rgba(255, 255, 0, 0.4);
+.tabbar input:checked + label {
+    background-color: #f23a2e;
 }
 
 .sports-container {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  flex-wrap: wrap;
-  gap: 1rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .sports-card-container {
-  width: 27rem;
-  height: 18rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  flex-grow: initial;
-  overflow: hidden;
+    width: 27rem;
+    height: 18rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    flex-grow: initial;
+    overflow: hidden;
 }
 
 .sports-card {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  top: 0;
-  left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
 }
 
 .sports-card-title {
-  color: #ffffff;
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  transition: all 0.3s ease-in-out;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .sports-card-description {
-  color: #ffffff;
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
-  opacity: 0;
-  text-align: center;
-  position: relative;
-  top: 55%;
-  padding: 0 2.5rem;
-  transition: all 0.3s ease-in-out;
-  transition-delay: 0;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    text-align: center;
+    position: relative;
+    top: 55%;
+    padding: 0 2.5rem;
+    transition: all 0.3s ease-in-out;
+    transition-delay: 0;
 }
 
 .sports-card-anim-block-1 {
-  width: 200%;
-  height: 200%;
-  position: absolute;
-  top: 100%;
-  left: -200%;
-  opacity: 1;
-  transform: rotate(-45deg);
-  background-color: #f23a2e;
-  transition: all 0.7s linear, opacity 0s 0.7s;
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 100%;
+    left: -200%;
+    opacity: 1;
+    transform: rotate(-45deg);
+    background-color: #f23a2e;
+    transition: all 0.7s linear, opacity 0s 0.7s;
 }
 
 .sports-card-anim-block-2 {
-  width: 200%;
-  height: 200%;
-  position: absolute;
-  top: -300%;
-  right: -200%;
-  opacity: 1;
-  transform: rotate(-45deg);
-  background-color: #0F1322;
-  transition: all 0.7s linear, opacity 0s 0.7s;
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: -300%;
+    right: -200%;
+    opacity: 1;
+    transform: rotate(-45deg);
+    background-color: #0f1322;
+    transition: all 0.7s linear, opacity 0s 0.7s;
 }
 
 .sports-card-container:hover .sports-card-description {
-  opacity: 1;
-  top: 35%;
-  transition-delay: 0.2s;
+    opacity: 1;
+    top: 35%;
+    transition-delay: 0.2s;
 }
 
 .sports-card-container:hover .sports-card-title {
-  font-size: 2rem;
-  top: 30%;
+    font-size: 2rem;
+    top: 30%;
 }
 
 .sports-card-container:hover .sports-card-anim-block-1 {
-  top: -550%;
-  left: 220%;
-  opacity: 0;
+    top: -550%;
+    left: 220%;
+    opacity: 0;
 }
 
 .sports-card-container:hover .sports-card-anim-block-2 {
-  top: 180%;
-  right: -120%;
-  opacity: 0;
+    top: 180%;
+    right: -120%;
+    opacity: 0;
 }
 
-
 @media (max-width: 768px) {
-  .sports-card-container {
-    width: calc(100% - 2rem);
-    height: 15rem;
-    margin: 0 1rem;
-  }
+    .sports-card-container {
+        width: calc(100% - 2rem);
+        height: 15rem;
+        margin: 0 1rem;
+    }
 
-  .sports-card-description {
-    display: block;
-    opacity: 1;
-    top: 35%;
-  }
+    .sports-card-description {
+        display: block;
+        opacity: 1;
+        top: 35%;
+    }
 
-  .sports-card-title {
-    font-size: 2rem;
-    top: 30%;
-  }
+    .sports-card-title {
+        font-size: 2rem;
+        top: 30%;
+    }
 }
