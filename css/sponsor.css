@@ -1,23 +1,22 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
-.sec1{
-    background-color: #0F1322;
+.sec1 {
+    background-color: #0f1322;
 }
 
-.navcontent{
+.navcontent {
     padding: 10px;
 }
 
-.navcontent ul{
+.navcontent ul {
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
-    
 }
 
 .navcontent ul li {
@@ -26,7 +25,7 @@
     margin-right: 10px;
 }
 
-.sec1head{
+.sec1head {
     /* margin: auto; */
     display: flex;
     justify-content: center;
@@ -39,37 +38,37 @@
 }
 
 .sec1title {
-  margin-top: 1.5em;
-  width: 100%;
+    margin-top: 1.5em;
+    width: 100%;
 }
 
-.sec1photo{
+.sec1photo {
     display: flex;
     justify-content: center;
     /* height: 100vh; */
 }
 
-
-.sec1photo img{
+.sec1photo img {
     position: relative;
     /* width: 100vw; */
     max-height: 500px;
     padding: 3rem 1rem;
 }
 
-.sec2{
+.sec2 {
     width: 100%;
     padding-top: 10px;
     /* padding-bottom: 10px; */
 }
 
-.heading2{
+.heading2 {
     font-weight: 700;
     font-size: 1.9em;
-    margin: 2rem 0 0 0;
+    color: white;
+    /* margin: 2rem 0 0 0; */
 }
 
-.sec2row1{
+.sec2row1 {
     width: 100%;
     /* display: flex; */
     /* justify-content: space-around; */
@@ -77,80 +76,80 @@
     margin-top: 20px;
 }
 
-.sec2row2{
+.sec2row2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.companydet2{
+.companydet2 {
     margin: 10px;
     height: 40vh;
     align-content: center;
 }
 
-.companydet h1{
+.companydet h1 {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
     margin-top: 20px;
 }
 
-.companydet2 h1{
+.companydet2 h1 {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
     margin-top: 20px;
 }
 
-.first_image{
+.first_image {
     position: relative;
-    left:32%;
+    left: 32%;
 }
 
-.other_images{
+.other_images {
     height: 13vh;
     width: 25vw;
 }
 
-#other_images6{
+#other_images6 {
     height: 20vh;
     width: 20vh;
     justify-content: center;
 }
 
-#other_images8{
+#other_images8 {
     height: 16vh;
     width: 20vw;
 }
 
-.com_name{
+.com_name {
     text-align: center;
     font-size: 1.3em;
     vertical-align: bottom;
     font-weight: bold;
 }
 
-.rel{
+.rel {
     font-size: 1.2em;
     text-align: center;
     vertical-align: bottom;
     font-weight: 400;
 }
 
-.past{
+.past {
     text-align: center;
     font-size: x-large;
     letter-spacing: 1ch;
 }
 
-.galleryrow{
+.galleryrow {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.col{
+.col {
     min-height: 200px;
     width: 200px;
     display: flex;
@@ -160,7 +159,7 @@
     margin: 0 !important;
 }
 
-.past_sponser_images{
+.past_sponser_images {
     max-height: 130px;
     max-width: 200px;
     display: block;
@@ -170,7 +169,7 @@
     margin-top: 30px;
 }
 
-.past_sponser_images_2{
+.past_sponser_images_2 {
     max-height: 100px;
     max-width: 250px;
     display: block;
@@ -183,13 +182,13 @@
 /*////////////////////*/
 
 .sec3 {
-    background-color: #0F1322;
+    background-color: #0f1322;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.sec3 p{
+.sec3 p {
     font-weight: bolder;
     text-align: center;
     padding: 2em;
@@ -198,24 +197,24 @@
     color: #ffffff;
 }
 
-.sec3details{
+.sec3details {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 10px;
 }
 
-.sec3info{
+.sec3info {
     padding: 10px;
 }
 
-.sec3info .heading{
+.sec3info .heading {
     font-size: 2em;
     color: #ffffff;
     font-weight: bolder;
 }
 
-.sec3info .extra{
+.sec3info .extra {
     padding-top: 10px;
     color: #ffffff;
     font-size: 1em;
@@ -227,72 +226,72 @@
     .sec3info .heading {
         font-size: 1em;
     }
-    .sec3info .extra{
+    .sec3info .extra {
         font-size: 0.5em;
     }
     /* .sec1head p{
         letter-spacing: 1ch;
 
     } */
-    .navcontent ul li{
-     font-size: small;   
-     margin-left: 5px;
-     margin-right: 5px;
+    .navcontent ul li {
+        font-size: small;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     /*////////////////*/
     /* .sec2row1{
         width: 100vw;
         height: 40vw;
     } */
-    .sec2row2{
+    .sec2row2 {
         justify-content: center;
         display: flex;
         flex-direction: column;
         height: 100vh;
         width: 100vw;
     }
-    .companydet2{
+    .companydet2 {
         width: 100vw;
         height: 50vw;
         justify-content: space-around;
     }
-    .companydet2 :: after{
+    .companydet2 :: after {
         content: "/a";
         white-space: pre;
     }
-    .com_name{
+    .com_name {
         font-size: 1em;
     }
-    .rel{
+    .rel {
         font-size: 1em;
     }
-    .other_images{
+    .other_images {
         height: 10vw;
         width: 30vw;
         position: relative;
         left: 35vw;
     }
-    #other-images6{
+    #other-images6 {
         left: 20vh;
     }
-    .galleryrow{
+    .galleryrow {
         justify-content: center;
         display: flex;
         flex-direction: column;
         width: 100vw;
         height: 100vh;
     }
-    .col{
+    .col {
         width: 100vw;
         height: 33vw;
         justify-content: space-around;
     }
-    .col :: after{
+    .col :: after {
         content: "/a";
         white-space: pre;
     }
-  }
+}
 
-  hr{
-      height: 1px;
-  }
+hr {
+    height: 1px;
+}
