@@ -409,7 +409,7 @@ ul {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #e91e63;
+    background-color: #f23a2e;
     height: 2px;
     box-sizing: border-box;
     width: 100px;
@@ -466,7 +466,6 @@ a {
     color: #24262b;
     background-color: #ffffff;
 }
-
 
 .photo {
     height: 80vh;

@@ -9,12 +9,14 @@ body {
     background-color: #0f1322;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .tabbar {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .tabbar input {
