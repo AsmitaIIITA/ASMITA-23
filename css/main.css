@@ -323,7 +323,7 @@ a {
     background: #f23a2e;
     padding: 1rem;
     border-radius: 8px;
-    /* border: none; */
+    border: none;
     cursor: pointer;
 }
 
@@ -335,7 +335,7 @@ a {
     background: #f23a2e;
     padding: 1rem;
     border-radius: 8px;
-    /* border: none; */
+    border: none;
     cursor: pointer;
 }
 
@@ -425,7 +425,7 @@ a {
         margin-top: -3rem;
         margin-right: 2rem;
         margin-left: 1rem;
-        width:82vw;
+     width:82vw;
     }
     #about-us-2{
         margin-top: -3rem;
@@ -697,7 +697,7 @@ button {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 10px;
-    /* border: none; */
+    border: none;
     border-radius: 8px;
 }
 
@@ -802,4 +802,10 @@ button {
         font-weight: lighter;
         line-height: 24px;
     }
+}
+
+.navbar {
+    position: absolute !important;
+    width: 100%;
+    top: 0;
 }
