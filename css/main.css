@@ -58,17 +58,17 @@ h1 {
 }
 
 .s2 {
-    background: url("../gallery-folder/img/12288_o303\ \(1\).jpg");
+    /* background: url("../gallery-folder/img/12288_o303\ \(1\).jpg"); */
     background-size: cover;
 }
 
 .s3 {
-    background: url("../gallery-folder/img/4.png");
+    /* background: url("../gallery-folder/img/4.png"); */
     background-size: cover;
 }
 
 .s4 {
-    background: url("../gallery-folder/gallery/img/volleyball_2.jpg");
+    /* background: url("../gallery-folder/gallery/img/volleyball_2.jpg"); */
 
     background-size: cover;
 }
@@ -258,7 +258,7 @@ a {
     border-color: transparent transparent transparent black !important;
 }
 
-.s4 {
+/* .s4 {
     background-image: url("/assets/images/bg.png");
 }
 
@@ -268,7 +268,7 @@ a {
 
 .s7 {
     background-image: url("/assets/images/bg.png");
-}
+} */
 
 .right {
     width: 40%;
@@ -499,7 +499,7 @@ a {
 }
 
 .s0 {
-    background-image: url(/assets/images/bg.png);
+    /* background-image: url(/assets/images/bg.png); */
     z-index: -1;
 }
 
