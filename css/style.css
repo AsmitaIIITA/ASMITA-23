@@ -516,3 +516,11 @@ a {
 #fp-nav ul li a span {
     background: #f23a2e !important;
 }
+.footer-logo {
+    width: 300px;
+}
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+    .footer-logo {
+        width: 200px;
+    }
+}
