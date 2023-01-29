@@ -320,6 +320,7 @@ a {
     padding: 1rem;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .brochuree {
@@ -331,6 +332,7 @@ a {
     padding: 1rem;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 410px) {
@@ -669,7 +671,7 @@ a {
     top: 64%;
     left: 57%;
     width: 36%;
-    color: grey;
+    color: white;
     font-weight: lighter;
     font-size: 20px;
     line-height: 24px;
