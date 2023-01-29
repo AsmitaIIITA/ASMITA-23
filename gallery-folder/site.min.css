@@ -2293,7 +2293,7 @@ nav .nav-right {
 }
 nav .nav-right a {
     opacity: 0.7;
-    font-weight: 700;
+    /* font-weight: 700; */
     text-decoration: none;
     color: #fff;
 }
@@ -2750,7 +2750,7 @@ nav.active + .overlay {
         font-family: Universal-Accreditation;
         text-transform: uppercase;
         letter-spacing: 0.05em;
-        font-weight: 500;
+        /* font-weight: 500; */
         border-bottom: 0;
     }
     nav.scrolled {
