@@ -57,10 +57,6 @@ h1 {
     }
 }
 
-.s2 {
-    /* background: url("../gallery-folder/img/12288_o303\ \(1\).jpg"); */
-    background-size: cover;
-}
 
 .s3 {
     /* background: url("../gallery-folder/img/4.png"); */
@@ -79,6 +75,14 @@ h1 {
 
 .fp-watermark {
     display: none !important;
+}
+
+
+#about-us-2 {
+    position: relative;
+float: right;
+    width: 40vw;
+    height: 40vw;
 }
 
 /* FOOTER */
@@ -421,6 +425,14 @@ a {
         margin-top: -3rem;
         margin-right: 2rem;
         margin-left: 1rem;
+        width:82vw;
+    }
+    #about-us-2{
+        margin-top: -3rem;
+        margin-right: 2rem;
+        margin-left: 1rem;
+       height:67vw;
+       width:82vw;
     }
 }
 
