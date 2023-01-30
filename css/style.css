@@ -524,3 +524,6 @@ a {
         width: 200px;
     }
 }
+nav li {
+    margin: 8px;
+}
