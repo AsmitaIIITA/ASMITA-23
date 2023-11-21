@@ -2,6 +2,19 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>om</title>
+    <link rel="icon" href="img/icon.jpg" type="icon/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
     <title>Events | Asmita'23</title>
@@ -34,6 +47,8 @@
     <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon" />
 
+    <link rel="stylesheet" href="../css/normalize.css">
+
     <link rel="stylesheet" type="text/css" href="../css/events.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -55,40 +70,42 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-color">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" style="font-weight: 600" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="font-weight: 600" href="#">Events</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="sponsor.html">Sponsors</a>
-                </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" style="font-weight: 600" href="team.html">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="font-weight: 600" href="sponsor.html">Sponsors</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="font-weight: 600" href="../gallery-folder/gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="font-weight: 600" href="https://asmitaiiita.org/"
-                        target="_blank">Register</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="font-weight: 600" href="#footer">Contact</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/" style="font-weight: 600">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./events.html" style="font-weight: 600">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./team.html" style="font-weight: 600">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sponsor.html" style="font-weight: 600">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gallery-folder/gallery.html" style="font-weight: 600">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://asmitaiiita.org/" style="font-weight: 600">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer" style="font-weight: 600">Contact</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
         </div>
     </nav>
 
@@ -138,27 +155,28 @@
         <section class="sports-container" id="sports-container" style="background-color: #0f1322"></section>
     </main>
 
-    <div class="section s5 fp-auto-height">
+    <div class="section s5 fp-auto-height" id="footer">
         <footer class="footer" id="footer">
             <!-- <div class="containerrr"> -->
-            <div class="footer-row">
-                <div class="footer-col">
+            <div style="display: flex;">
+                <div style="display: flex; width: 40%; padding-left: 20px;">
                     <!-- <h4>Address</h4>
-                        <ul style="margin-left: 0">
-                            <li>
-                                <a
-                                    href="https://placement.iiita.ac.in/statistics.php"
-                                    >Asmita Headquarters, <br />
-                                    IIIT-Allahabad,Jhalwa,<br />Uttar
-                                    Pradesh-211015</a
-                                >
-                            </li>
-                        </ul> -->
-                    <img src="../assets/images/Logo.png" alt="Logo" class="footer-logo" />
+                    <ul>
+                        <li>
+                            <a
+                                href="https://placement.iiita.ac.in/statistics.php"
+                                >Asmita Headquarters, <br />
+                                IIIT-Allahabad,Jhalwa,<br />Uttar
+                                Pradesh-211015</a
+                            >
+                        </li>
+                    </ul> -->
+                    <img src="../assets/images/Logo.png" alt="Logo" class="footer-logo" width="50%" />
+                    <img src="../assets/images/inter.png" alt="Logo" class="footer-logo" width="50%" />
                 </div>
-                <div class="footer-col">
+                <div class="footer-col" style="width: 20%;">
                     <h4>Phone Numbers</h4>
-                    <ul style="margin-left: 0">
+                    <ul>
                         <li>
                             <a href="">
                                 Overall Coordinator:
@@ -168,17 +186,17 @@
                         <li>
                             <a href="">Overall Coordinator:
                                 <br />
-                                +91 8102863704- Harsh</a>
+                                +91 8102863704 - Harsh</a>
                         </li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="footer-col" style="width: 20%;">
                     <h4>Email</h4>
-                    <ul style="margin-left: 0">
+                    <ul>
                         <a href="mailto:asmita@iiita.ac.in">asmita@iiita.ac.in</a>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="footer-col" style="width: 20%;">
                     <h4>Follow us</h4>
                     <div class="social-links">
                         <a href="https://www.facebook.com/asmitaiiita" target="_blank"><i
