@@ -204,7 +204,7 @@ section {
 .about__txt {
 	width: calc(50% - 35px);
 	height: auto;
-	padding-bottom: 300px;
+	
 }
 .about__img{
 	width: calc(50% - 35px);
