@@ -64,18 +64,15 @@
 
     <link rel="stylesheet" href="css/homepage-banner-style.css" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
-        rel="stylesheet" />
     <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet" />
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
     <!-- Font -->
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet" />
@@ -104,42 +101,33 @@
 </head>
 
 <body style="background-color: #0f1322;">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" style="font-weight: 600">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./templates/events.html" style="font-weight: 600">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./templates/team.html" style="font-weight: 600">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./templates/sponsor.html" style="font-weight: 600">Sponsors</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./gallery-folder/gallery.html" style="font-weight: 600">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://asmitaiiita.org/" style="font-weight: 600">Register</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#footer" style="font-weight: 600">Contact</a>
-                    </li>
-
-
-                </ul>
-
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-color">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" style="font-family: Arial, Helvetica, sans-serif; " id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../index.html" style="font-family: Arial, Helvetica, sans-serif;font-size: larger; margin-left: 10px; margin-right: 10px ;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/templates/events.html" style="font-family: Arial, Helvetica, sans-serif; font-size: larger;margin-left: 10px; margin-right: 10px ;">Events</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="sponsor.html">Sponsors</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/templates/team.html" style="font-family: Arial, Helvetica, sans-serif; font-size: larger;margin-left: 10px; margin-right: 10px ;">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../gallery-folder/gallery.html" style="font-family: Arial, Helvetica, sans-serif; font-size: larger;margin-left: 10px; margin-right: 10px ;">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer" style="font-family: Arial, Helvetica, sans-serif; font-size: larger;margin-left: 10px; margin-right: 10px ;">Contact</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -199,7 +187,7 @@
             </div>
         </header>
 
-        <main class="main">
+        <main class="main" style="margin: 10px;">
 
             <!-- div .about -->
             <section class="about" style="margin-bottom: 10px;">
@@ -221,7 +209,7 @@
             </section>
 
             <!-- div .benefits -->
-            <section class="about" style="margin-bottom: 10px;">
+            <section class="about" style="margin-bottom: 40px;">
                 <div class="about__wrapp row">
 
                     <div class="about__txt col-lg-7 col-md-12 col-sm-12">
@@ -244,10 +232,10 @@
             <!-- div .work -->
             <section class="about" style="margin-bottom: 10px;">
                 <div class="about__wrapp row">
-                    <div class="about__img col-lg-5 col-md-12 col-sm-12">
+                    <div class=" col-lg-5 col-md-12 col-sm-12">
                         <img src="assets/images/sponsor.png" alt="2">
                     </div>
-                    <div class="about__txt col-lg-7 col-md-12 col-sm-12">
+                    <div class=" col-lg-7 col-md-12 col-sm-12">
                         <h2 class="section-title"><span class="stroke">Sponsor Us</span>
                             <span class="section-title__square"></span>
                         </h2>
@@ -266,7 +254,11 @@
                 <footer class="footer" id="footer">
                     <!-- <div class="containerrr"> -->
                     <div class="row">
+<<<<<<< HEAD
+                        <div class="col-lg-5 col-md-12 col-sm-12 row" style="padding-left: 20px; margin-bottom: 50px;">
+=======
                         <div class="col-lg-5 col-md-12 col-sm-12 row" style="padding-left: 20px;">
+>>>>>>> 9b94185d8b03197a9554abb2d91c96368c577eb4
                             <!-- <h4>Address</h4>
                             <ul>
                                 <li>
@@ -281,9 +273,15 @@
                             <img src="./assets/images/Logo.png" alt="Logo" class="col-lg-6"  />
                             <img src="./assets/images/inter.png" alt="Logo" class="col-lg-6"  />
                         </div>
+<<<<<<< HEAD
+                        <div class="col-lg-3 col-sm-12 col-md-12" style="text-align: center; margin-bottom: 50px;" >
+                            <h4 style="color: aliceblue;">Phone Numbers</h4>
+                            <ul style="color: aliceblue; text-align: center;">
+=======
                         <div class="col-lg-3 col-sm-6 col-md-6" >
                             <h4 style="color: aliceblue;">Phone Numbers</h4>
                             <ul style="color: aliceblue;">
+>>>>>>> 9b94185d8b03197a9554abb2d91c96368c577eb4
                                 <li>
                                     <a href="">
                                         Overall Coordinator:
@@ -297,16 +295,27 @@
                                 </li>
                             </ul>
                         </div>
+<<<<<<< HEAD
+                        <div class="col-lg-2 col-sm-12 col-md-12 " style=" color: aliceblue; text-align: center; margin-bottom: 50px;">
+=======
                         <div class="col-lg-2 col-sm-6 col-md-6" style=" color: aliceblue;">
+>>>>>>> 9b94185d8b03197a9554abb2d91c96368c577eb4
                             <h4 style="color: aliceblue;">Email</h4>
                             
                                 <a href="mailto:asmita@iiita.ac.in" >asmita@iiita.ac.in</a>
                             
                         </div>
+<<<<<<< HEAD
+                        <div class="col-lg-2" style="text-align: center;" >
+                            <h4 style="color: aliceblue;">Follow us</h4>
+                            <div style=" align-items: center;">
+                                <a href="https://www.facebook.com/asmitaiiita" style="margin-right: 50px;" target="_blank"><i
+=======
                         <div class="col-lg-2" >
                             <h4 style="color: aliceblue;">Follow us</h4>
                             <div class="social-links" style="display: flex; gap: 20px;">
                                 <a href="https://www.facebook.com/asmitaiiita" target="_blank"><i
+>>>>>>> 9b94185d8b03197a9554abb2d91c96368c577eb4
                                         class="fab fa-facebook-f"></i></a>
                                 <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
                                 <a href="https://www.instagram.com/asmita_iiita/" target="_blank"><i
