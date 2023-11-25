@@ -195,10 +195,7 @@ section {
 	text-align: left;
 }
 
-.about__wrapp {
-	display: flex;
-	justify-content: space-between;
-}
+
 
 
 .about__txt {
@@ -217,7 +214,7 @@ section {
 
 .about__p {
 	line-height: 1.4;
-	font-size: 20px;
+	font-size: 25px;
 	
 }
 
@@ -334,10 +331,10 @@ section {
 
 /* footer ********/
 .footer {
-	display: flex;
+	
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	margin-bottom: 25px;
 }
 
 .footer__div {
@@ -350,3 +347,51 @@ section {
 .footer__div span {
 	display: inline-block;
 }
+.paraa{
+	font-size: 25px;
+}
+@media screen and (max-width: 950px) {
+	.heightset{
+		height: 100px;
+	}
+	.paraa{
+		font-size: 20px;
+	}
+	.about__p {
+		line-height: 1.4;
+		font-size: 20px;}
+		
+  }
+  @media screen and (max-width: 700px) {
+	.heightset{
+		height: 180px;
+	}
+	.paraa{
+		font-size: 15px;
+	}.about__p {
+		line-height: 1.4;
+		font-size: 15px;
+		
+  }}
+  @media screen and (max-width: 500px) {
+	.heightset{
+		height: 160px;
+	}.paraa{
+		font-size: 15px;
+	}
+	.about__p {
+		line-height: 1.4;
+		font-size: 15px;
+	}	
+  }
+  @media screen and (max-width: 400px) {
+	.heightset{
+		height: 150px;
+	}.paraa{
+		font-size: 15px;
+	}
+	.about__p {
+		line-height: 1.4;
+		font-size: 15px;
+	}	
+  }
