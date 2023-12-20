@@ -1,5 +1,16 @@
 /* 1.1.general-setting-pages *************************/
 /****************************************************/
+@font-face {
+    font-family: 'Proxima'; /* Choose a name for your font */
+    src: url('/fonts/Proxima\ Nova\ Font.otf') format('opentype');
+    /* Add additional font formats if needed (e.g., woff, woff2) for better browser compatibility */
+}
+@font-face {
+    font-family: 'ItalianPlateNo2'; /* Choose a name for your font */
+    src: url('/fonts/Italian\ Plate\ No2.woff2.ttf') format('truetype');
+    /* Add additional font formats if needed (e.g., woff, woff2) for better browser compatibility */
+}
+
 :root {
 	--pr-color: #fff;
 	--second-color: #0f1322;
@@ -9,7 +20,7 @@
 
 * {
 	box-sizing: border-box;
-	font-family: 'Syne', sans-serif;
+	font-family: 'Proxima', sans-serif;
 	font-weight: 800;
 	margin: 0;
 	padding: 0;
@@ -40,9 +51,8 @@
 }
 
 
-body {
-	background-color:#0f1322
-}
+
+
 
 /******************************************/
 section {
@@ -159,6 +169,8 @@ section {
 .title_paralax {
 	display: inline-block;
 	will-change: transform;
+	font-family: "ItialianPlateNo2", sans-serif;
+	font-size: 102px;
 }
 
 .title .stroke {
