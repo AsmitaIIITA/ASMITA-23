@@ -197,6 +197,21 @@ section {
 	height: 100%;
 	object-fit: cover;
 }
+@media (max-width: 549px){
+    #asmita-text-footer{
+        font-size: 11vw;
+    }
+}
+@media (max-width: 397px){
+    #asmita-text-footer{
+    font-size: 8vw;
+}
+}
+@media (max-width: 303px){
+    #asmita-text-footer{
+    font-size: 6vw;
+}
+}
 
 .section-title {
 	position: relative;
