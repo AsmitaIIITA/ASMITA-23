@@ -130,16 +130,16 @@
                         style=" font-size: larger;margin-left: 10px; margin-right: 10px ;">Gallery</a>
                 </li>
                 <li class="nav-item" style="margin: 8px;">
+                    <a class="nav-link" href="./templates/sponsor.html"
+                        style=" font-size: larger;margin-left: 10px; margin-right: 10px ;">Sponsors</a>
+                </li>
+                <li class="nav-item" style="margin: 8px;">
                     <a class="nav-link" href="https://asmitaiiita.org/"
                         style=" font-size: larger;margin-left: 10px; margin-right: 10px ;">Register</a>
                 </li>
                 <li class="nav-item" style="margin: 8px;">
                     <a class="nav-link" href="#helllo"
                         style=" font-size: larger;margin-left: 10px; margin-right: 10px ;">Contact</a>
-                </li>
-                <li class="nav-item" style="margin: 8px;">
-                    <a class="nav-link" href="./templates/sponsor.html"
-                        style=" font-size: larger;margin-left: 10px; margin-right: 10px ;">Sponsors</a>
                 </li>
             </ul>
         </div>
@@ -251,12 +251,14 @@
             </div>
         </header>
 
-        <main class="main" style="margin: 10px;">
+        <main class="main" style="margin: 10px; ">
+
 
             <!-- div .about -->
-            <section class="about" style="margin-bottom: 120px; ">
+            <section class="about"
+                style="position: relative; top: 50px;margin-top: 150px; padding-bottom: 250px; background-color:rgb(206, 201, 193); clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);">
                 <div class="about__wrapp row">
-                    <div class="about__img col-lg-5 col-md-12 col-sm-12"
+                    <div class="about__img col-lg-5 col-md-7 col-sm-7"
                         style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
                         <img class="imgg" src="gallery-folder/img/Rectangle 218.png" alt="2">
                     </div>
@@ -264,7 +266,8 @@
                         <h2 class="section-title"><span class="stroke">about</span>
                             <span class="section-title__square"></span>
                         </h2>
-                        <p class="about__p">Asmita is IIIT Allahabad’s annual sports festival. After multiple successful
+                        <p class="about__p" style="color: #063034;">Asmita is IIIT Allahabad’s annual sports festival.
+                            After multiple successful
                             editions in the past, it has become a flagship sports festival in North India. The word
                             Asmita signifies glory and the feeling of oneness, and the festival rightly lives up to its
                             name by bringing together the best players and teams of multiple renowned institutes on the
@@ -277,33 +280,37 @@
 
             <!-- div .benefits -->
 
-            <section style="margin-bottom: 10px; background-color:#AABBB0; clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);">
+            <section class="section-location"
+                style="position: relative; bottom: 130px;margin-bottom: 40px; background-color:#AABBB0; clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 90%); padding-bottom: 10%;">
                 <span class="xyz">
-                <div class="row">
+                    <div class="row" style="margin-left: 5%">
 
-                    <div class=" col-lg-7 col-md-12 col-sm-12">
-                        <h2 class="section-title"><span class="stroke" style="color: #0A3E1D;">location</span>
-                            <span class="section-title__square"></span>
-                        </h2>
-                        <p class="paraa" style="color: #0A3E1D;">The IIITA campus is located at Devghat Jhalwa
-                            (Peepalgaon Road), which is on the outskirts of
-                            Allahabad. It is 10 km from the town center and 7 km
-                            from the main railway station. The Allahabad ciy is
-                            well connected by air, rail and road to near by
-                            metros. Railway services to this city from all the
-                            mega cities of the coutry are excellent and quite
-                            comfortable.</p>
+                        <div class=" col-lg-7 col-md-12 col-sm-12 location__text">
+                            <h2 class="section-title section-title-location"><span class="stroke"
+                                    style="color: #0A3E1D;">location</span>
+                                <span class="section-title__square"></span>
+                            </h2>
+                            <p class="paraa" style="color: #0A3E1D;">The IIITA campus is located at Devghat Jhalwa
+                                (Peepalgaon Road), which is on the outskirts of
+                                Allahabad. It is 10 km from the town center and 7 km
+                                from the main railway station. The Allahabad ciy is
+                                well connected by air, rail and road to near by
+                                metros. Railway services to this city from all the
+                                mega cities of the coutry are excellent and quite
+                                comfortable.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-11 col-sm-11" id="map" style="height: 500px; position: relative;">
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-md-11 col-sm-11" id="map" style="height: 500px; position: relative;"></div>
-                </div>
-                
-            </span>
+
+                </span>
             </section>
-            
+
 
 
             <!-- div .work -->
-            <section class="" style="margin-bottom: 10px;">
+            <section class="section-sponsor"
+                style=" padding-bottom: 100px;background-color:rgb(184, 218, 194); clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%); position: relative; bottom: 280px;">
                 <div class=" row">
                     <div class=" col-lg-5 col-md-12 col-sm-12">
                         <div style="width: 100%; display: flex; align-items: center; justify-content: center; ">
@@ -315,80 +322,97 @@
                         <h2 class="section-title"><span class="stroke" style="color: #0A3E1D;">Sponsor Us</span>
                             <span class="section-title__square"></span>
                         </h2>
-                        <p class="paraa" >Asmita is IIIT Allahabad’s annual sports festival. After multiple successful
+                        <p class="paraa" style="color: #063034 !important;">Asmita is IIIT Allahabad’s annual sports
+                            festival. After multiple successful
                             editions in the past, it has become a flagship sports festival in North India. The word
                             Asmita signifies glory and the feeling of oneness, and the festival rightly lives up to its
                             name by bringing together the best players and teams of multiple renowned institutes on the
                             sports field. </p>
-                            <a href="/brochure.pdf" style="text-decoration: none; width: 30%; color: white;"><button type="button" class="btn " style=" font-size: large; background-color: #AABBB0;">BROCHURE</button></a>
+                        <a href="/brochure.pdf" style="text-decoration: none; width: 30%; color: white;"><button
+                                type="button" class="btn "
+                                style=" font-size: large; background-color: #1a3235;">BROCHURE</button></a>
 
                     </div>
                 </div>
             </section>
-            <hr>
 
             <!-- div .serv -->
-            <div class="section s5 fp-auto-height" id="footer"
-                style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                <footer class="footer" i>
-                    <div class="footer__div" id="asmita-text-footer">
-                        <span data-speed="-300">a</span>
-                        <span data-speed="100">s</span>
-                        <span data-speed="300">m</span>
-                        <span data-speed="-300">i</span>
-                        <span data-speed="350">t</span>
-                        <span data-speed="200">a</span>
-                        <span data-speed="-310">2</span>
-                        <span data-speed="200">0</span>
-                        <span data-speed="-340">2</span>
-                        <span data-speed="-100">4</span>
-                    </div>
-                </footer>
-            </div>
-               
-            <div class="row" style="padding-bottom:30px ;" id="helllo">
-                        <div class="col-lg-4"><img src="https://asmita.iiita.ac.in/assets/images/Logo.png" width="45%"/>
-                            <img src="./assets/images/inter.png" width="45%"/>
+            <div class="footer-title-and-text" style="position: relative; bottom: 300px; height: 300px;">
+
+                <div class="section s5 fp-auto-height" id="footer" style="display: flex; flex-direction: column; align-items: center; justify-content: center;
+                    padding-top: 100px;">
+                    <footer class="footer" i>
+                        <div class="footer__div" id="asmita-text-footer">
+                            <span data-speed="-300">a</span>
+                            <span data-speed="100">s</span>
+                            <span data-speed="300">m</span>
+                            <span data-speed="-300">i</span>
+                            <span data-speed="350">t</span>
+                            <span data-speed="200">a</span>
+                            <span data-speed="-310">2</span>
+                            <span data-speed="200">0</span>
+                            <span data-speed="-340">2</span>
+                            <span data-speed="-100">4</span>
                         </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                            <h2 style=" margin-bottom: 15px;"><span class="stroke" style=" font-size: 30px; color: #B8DAC2;">Phone Numbers</span></h2>
-                            
+                    </footer>
+                </div>
+
+                <div class="row" style=" margin-bottom: 100px;" id="helllo">
+                    <div class="col-lg-4 footer-images">
+                        <img src="https://asmita.iiita.ac.in/assets/images/Logo.png" width="45%" />
+                        <img src="./assets/images/inter.png" width="45%" />
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4">
+                        <div
+                            style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                            <h2 style=" margin-bottom: 15px;"><span class="stroke"
+                                    style=" font-size: 30px; color: #B8DAC2;">Phone Numbers</span></h2>
+
                             <p class="paraa" style="font-size: medium;">Overall Coordinator: <br>
-                            +91 9423693939 - Nimish Rajurkar <br>
-                            Overall Coordinator: <br>
-                            +91 8102863704 - Harsh </p>
-                            
-                                </div>
-                                
+                                +91 9423693939 - Nimish Rajurkar <br>
+                                Overall Coordinator: <br>
+                                +91 8102863704 - Harsh </p>
 
                         </div>
-                        <div class="col-lg-3 col-md-4">
-                            <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                          
-                            <h2 style=" margin-bottom: 15px;"><span class="stroke" style=" font-size: 30px; color: #B8DAC2;">Email</span></h2>
-                           
+
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4">
+                        <div
+                            style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+
+                            <h2 style=" margin-bottom: 15px;"><span class="stroke"
+                                    style=" font-size: 30px; color: #B8DAC2;">Email</span></h2>
+
                             <p class="paraa" style="font-size: medium;">
                                 <a href="mailto:asmita@iiita.ac.in" style="color: white;">
-                                asmita@iiita.ac.in </p></a></div>
+                                    asmita@iiita.ac.in
+                            </p></a>
                         </div>
-                        <div class="col-lg-2 col-md-4">
-                            <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                          
-                            <h2 style=" margin-bottom: 15px;"><span class="stroke" style=" font-size: 30px; color: #B8DAC2;">Follow Us</span></h2>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4">
+                        <div
+                            style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+
+                            <h2 style=" margin-bottom: 15px;"><span class="stroke"
+                                    style=" font-size: 30px; color: #B8DAC2;">Follow Us</span></h2>
                             <p>
-                                <a href="https://www.facebook.com/asmitaiiita" style="margin-right: 50px; color: #B8DAC2; border: 8px #FFFFFF33 solid; border-radius: 50%; "
-                                target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
-                            <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
-                            <a href="https://www.instagram.com/asmita_iiita/" style="color: #B8DAC2; border: 8px #FFFFFF33 solid; border-radius: 50%; " target="_blank"><i
-                                    class="fab fa-instagram fa-lg"></i></a>
+                                <a href="https://www.facebook.com/asmitaiiita"
+                                    style="margin-right: 50px; color: #B8DAC2; border: 8px #FFFFFF33 solid; border-radius: 50%; "
+                                    target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
+                                <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                                <a href="https://www.instagram.com/asmita_iiita/"
+                                    style="color: #B8DAC2; border: 8px #FFFFFF33 solid; border-radius: 50%; "
+                                    target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
                             </p>
-                           
-                        </div></div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-                
-                
-            
+
+
+
     </div>
     </main>
 

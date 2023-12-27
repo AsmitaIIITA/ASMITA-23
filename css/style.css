@@ -133,6 +133,8 @@ section {
 	height: 100%;
 }
 
+
+
 .title {
 	position: relative;
 	margin: 5px;
@@ -215,14 +217,15 @@ section {
 	margin: 0;
 	margin-bottom: 60px;
 	line-height: .8;
-	font-size: 36px;
+	font-size: 60px;
+    font-style: italic;
 	
-	color: var(--pr-color);
+	color: #063034 !important;
+    font-family: 'ItalianPlateNo2', sans-serif;
 	text-transform: uppercase;
 }
 
 .section-title .stroke {
-	color: transparent;
 	-webkit-text-stroke: 1px var(--pr-color);
 }
 
@@ -389,6 +392,79 @@ section {
 .footer__div span {
 	display: inline-block;
 }
+
+@media screen and (max-width: 993px) {
+    .footer-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-images > *{
+        width: 25%
+    }
+    #helllo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 879px) {
+    #asmita-text-footer>*{
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 723px) {
+    #asmita-text-footer>*{
+        display: none;
+    }
+    .footer-title-and-text{
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 1111px){
+    .about__txt{
+        margin-bottom: 50px;
+    }
+    .location__text{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 953px) {
+    .section-location{
+        bottom: 188px;
+    }
+}
+
+@media screen and (max-width: 993px){
+    .section-title-location{
+        text-align: right;
+    }
+    .section-location{
+        bottom: 200px !important;
+    }
+    .section-sponsor{
+        bottom: 350px !important;
+    }
+    #map{
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 701px){
+    .section-location{
+        bottom: 250px !important;
+    }
+    .section-sponsor{
+        bottom: 400px !important;
+    }
+}
+
+
 .paraa{
 	font-size: 25px;
 }
