@@ -202,16 +202,13 @@ section {
         font-size: 11vw;
     }
 }
-@media (max-width: 397px){
+
+@media (max-width: 500px){
     #asmita-text-footer{
-    font-size: 8vw;
+    display: none;
 }
 }
-@media (max-width: 303px){
-    #asmita-text-footer{
-    font-size: 6vw;
-}
-}
+
 
 .section-title {
 	position: relative;
@@ -441,5 +438,3 @@ section {
 		font-size: 15px;
 	}	
   }
-
- 
