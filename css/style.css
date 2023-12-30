@@ -72,6 +72,7 @@ section {
 	padding: 0 70px;
 }
 
+
 .char {
 	display: inline-block;
 }
@@ -200,16 +201,11 @@ section {
 	object-fit: cover;
 }
 @media (max-width: 549px){
-    #asmita-text-footer{
+    #asmita-text-footer > *{
         font-size: 11vw;
     }
 }
 
-@media (max-width: 500px){
-    #asmita-text-footer{
-    display: none;
-}
-}
 
 
 .section-title {
@@ -393,6 +389,7 @@ section {
 	display: inline-block;
 }
 
+
 @media screen and (max-width: 993px) {
     .footer-images{
         display: flex;
@@ -408,21 +405,45 @@ section {
         justify-content: center;
         align-items: center;
     }
+    #asmita-text-footer>*{
+        font-size: 5vw;
+    }
+    #helllo, .footer-images, #asmita-text-footer{
+        position: relative;
+        bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 879px) {
+    #helllo, .footer-images, #asmita-text-footer{
+        position: relative;
+        bottom: 0px;
+    }
     #asmita-text-footer>*{
         font-size: 6vw;
     }
+    .footer-title-main{
+        padding-top: 30px !important;
+    
+    }
+    
 }
 
 @media screen and (max-width: 723px) {
-    #asmita-text-footer>*{
-        display: none;
-    }
     .footer-title-and-text{
         height: 150vh;
     }
+    .footer-title-main{
+        padding-top: 30px !important;
+    }
+    #asmita-text-footer{
+        font-size: 5vw;
+    }
+    #helllo, .footer-images, #asmita-text-footer{
+        position: relative;
+        bottom: 30px;
+    }
+
 }
 
 @media screen and (max-width: 1111px){
@@ -492,6 +513,24 @@ section {
 		font-size: 15px;
 		
   }}
+
+  @media screen and (max-width: 573px) {
+    #asmita-text-footer{
+        font-size: 4vw;
+    }
+    .map-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+        position: relative;
+        right: 23px;
+    }
+    #map{
+        height: 300px !important;
+        width: 450px !important;
+    }
+  }
   @media screen and (max-width: 500px) {
 	.heightset{
 		height: 160px;
@@ -502,7 +541,34 @@ section {
 		line-height: 1.4;
 		font-size: 15px;
 	}	
-  }
+    #map{
+        height: 250px !important;
+        width: 350px !important;
+    }
+    #map, .location__text{
+        position: relative;
+        bottom: 20px !important;
+    }
+    .mapbox-directions-clearfix, .mapboxgl-ctrl-top-right{
+        display: none !important;
+    }
+    .section-title{
+        font-size: 11vw;
+    }
+    .section-title-location{
+        position: relative;
+        top: 15px;
+    }
+}
+@media screen and (max-width: 359px) {
+    
+    .section-title-location{
+        position: relative;
+        top: 30px;
+    }
+}
+
+
   @media screen and (max-width: 400px) {
 	.heightset{
 		height: 150px;
