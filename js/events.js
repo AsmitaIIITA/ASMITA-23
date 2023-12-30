@@ -51,13 +51,6 @@ let data = [
         category: "teamevents",
     },
     {
-        title: "Kho-Kho",
-        description:
-            "Like tag, the objective of Kho Kho is to tag or hunt down an opponent and score points. However, it is bound by a strict set of rules rather than being a free-for-all playground game.            ",
-        img: "../assets/images/kho-kho.png",
-        category: "teamevents",
-    },
-    {
         title: "Carrom",
         description:
             "Carrom is a tabletop game of Indian origin in which players flick discs, attempting to knock them to the corners of the board. ",
@@ -161,6 +154,27 @@ let data = [
             "A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up.",
         img: "../assets/images/powerlifting.jpg",
         category: "Powerlifting",
+    },
+    {
+        title: "Lawn Tennis",
+        description:
+            "Tennis is a racket sport that can be played individually against a single opponent or between two teams of two players each.",
+        img: "../assets/images/tennis.jpg",
+        category: "Solo",
+    },
+    {
+        title: "Badminton",
+        description:
+            "Badminton is a racquet sport played using racquets to hit a shuttlecock across a net.",
+        img: "../assets/images/badminton.jpg",
+        category: "Solo",
+    },
+    {
+        title: "Tug of War",
+        description:
+            "Tug of war is a sport that pits two teams against each other in a test of strength: teams pull on opposite ends of a rope, with the goal being to bring the rope a certain distance in one direction against the force of the opposing team's pull.",
+        img: "../assets/images/tug-of-war.jpg",
+        category: "teamevents",
     },
 ];
 

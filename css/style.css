@@ -389,6 +389,11 @@ section {
 	display: inline-block;
 }
 
+@media screen and (min-width: 1493px){
+    .section-title{
+        font-size: 5vw;
+    }
+}
 
 @media screen and (max-width: 993px) {
     .footer-images{
