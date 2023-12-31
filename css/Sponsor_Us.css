@@ -22,7 +22,7 @@ ul li a {
 }
 #sponsor2 {
     margin-top: 5vw;
-    font-family: "Open Sans", sans-serif;
+   
     font-style: normal;
     font-weight: bold;
     font-size: 2.4rem;
@@ -32,7 +32,7 @@ ul li a {
 
 #brochure {
     height: 10vh;
-    font-family: "Open Sans", sans-serif;
+   
     font-style: normal;
     font-weight: normal;
     font-size: 2rem;
@@ -41,7 +41,7 @@ ul li a {
 }
 #download {
     width: 12vw;
-    font-family: "Open Sans", sans-serif;
+    
     font-style: normal;
     font-weight: bold;
     font-size: 1rem;
