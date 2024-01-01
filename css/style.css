@@ -206,7 +206,44 @@ section {
     }
 }
 
+.contact-page{
+    animation: fadeIn 2s;
+}
 
+.contact-page #helllo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw !important;
+}
+
+.contact-page #helllo > div{
+    flex: 1 1 0px;
+}
+
+
+@media screen and (max-width: 878px) {
+    .contact-page .phone-numbers{
+        flex-basis: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contact-page h1{
+        font-size: 4rem !important;
+    }
+    .contact-page .stroke{
+        font-size: 30px !important;
+    }
+    .contact-page .paraa{
+        font-size: 20px !important;
+    }
+}
 
 .section-title {
 	position: relative;
@@ -490,7 +527,7 @@ section {
         bottom: 280px !important;
     }
     .section-sponsor{
-        bottom: 400px !important;
+        bottom: 420px !important;
     }
 }
 
