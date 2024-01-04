@@ -147,7 +147,7 @@ body{
     outline: 0;
 }
 .form-control:focus{
-    box-shadow: 0 0 6px -3px rgba(48, 48, 48, 1);
+   
 }
 .contact-form form div{
     display: grid;
