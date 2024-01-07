@@ -63,11 +63,11 @@ body {
 }
 
 .contact-bg h3 {
-    font-size: 1.3rem;
+    
     font-weight: 400;
 }
 .contact-bg h2 {
-    font-size: 3rem;
+    
     text-transform: uppercase;
     padding: 0.4rem 0;
     letter-spacing: 4px;
@@ -232,5 +232,18 @@ body {
 @media screen and (min-width: 1200px) {
     .contact-info {
         grid-template-columns: repeat(4, 1fr);
+    }
+}
+.headd{
+    font-size: 25px;
+}
+.paraa{
+    font-size: 15px;
+}
+@media screen and (max-width: 600px) {
+    .headd{
+    font-size: 15px;}
+    .paraa{
+        font-size: 12px;
     }
 }
