@@ -58,6 +58,8 @@
 section {
 	padding-top: 10vw;
 	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .wrapp {
@@ -480,7 +482,7 @@ section {
         text-align: right;
     }
     .section-location{
-        bottom: 200px !important;
+        bottom: 180px !important;
     }
     .section-sponsor{
         bottom: 35px !important;
@@ -496,11 +498,13 @@ section {
 
 @media screen and (max-width: 701px){
     .section-location{
-        bottom: 28px !important;
+       padding-bottom: 100px !important;
     }
     .section-sponsor{
         bottom: 40px !important;
+		padding-top: 70px;
     }
+	
 }
 
 
