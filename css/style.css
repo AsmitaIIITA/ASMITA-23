@@ -483,7 +483,7 @@ section {
         bottom: 200px !important;
     }
     .section-sponsor{
-        bottom: 350px !important;
+        bottom: 35px !important;
     }
     .sponsor-footer-images{
         position: relative;
@@ -496,10 +496,10 @@ section {
 
 @media screen and (max-width: 701px){
     .section-location{
-        bottom: 280px !important;
+        bottom: 28px !important;
     }
     .section-sponsor{
-        bottom: 400px !important;
+        bottom: 40px !important;
     }
 }
 
