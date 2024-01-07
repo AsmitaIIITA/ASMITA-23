@@ -67,16 +67,16 @@ let data = [
     {
         title: "Athletics",
         description:
-            "Athletics include 100m, 200m, 400m, 800m, 1500m, 3000m medal races.",
+            "Athletics include 100m, 200m, 400m, 800m, 1500m, 5000 medal races.",
         img: "../assets/images/athletics.jpg",
         category: "athletics",
     },
     {
-        title: "Relay",
+        title: "4x100m, 4x400m",
         description:
             "The 4 × 100 metres relay or sprint relay is an athletics track event run in lanes over one lap of the track with four runners completing 100 metres each.",
         img: "../assets/images/athletics.jpg",
-        category: "athletics",
+        category: "teamevents",
     },
 
     {
@@ -109,6 +109,27 @@ let data = [
         img: "../assets/images/longJump.jpg",
         category: "athletics",
     },
+    {
+        title: "High Jump",
+        description:
+            "The high jump is a track and field event in which competitors must jump unaided over a horizontal bar placed at measured heights without dislodging it.",
+        img: "../assets/images/high-jump.jpg",
+        category: "athletics",
+    },
+    {
+        title: "Triple Jump",
+        description:
+            "The triple jump, sometimes referred to as the hop, step and jump or the hop, skip and jump, is a track and field event, similar to the long jump.",
+        img: "../assets/images/triple-jump.jpg",
+        category: "athletics",
+    },
+    {
+        title: "Hurdles (110m)",
+        description:
+            "Hurdling is the act of running and jumping over an obstacle at speed.",
+        img: "../assets/images/hurdles.jpg",
+        category: "athletics",
+    },
 
     {
         title: "Free Style",
@@ -122,7 +143,7 @@ let data = [
         title: "Backstroke",
         description:
             "a swimming stroke executed on the back and usually consisting of alternating circular arm pulls and a flutter kick.",
-        img: "../assets/images/swimming.jpg",
+        img: "../assets/images/backstroke.jpg",
         category: "aquatics",
     },
 
@@ -130,29 +151,50 @@ let data = [
         title: "Butterfly",
         description:
             "a swimming stroke performed face down, in which both arms are thrust out at the sides at the same time.",
-        img: "../assets/images/swimming.jpg",
+        img: "../assets/images/butterfly.jpeg",
         category: "aquatics",
+    },
+    {
+        title: "Breastroke",
+        description:
+            "a swimming stroke performed face down, in which both arms are thrust out at the sides at the same time.",
+        img: "../assets/images/breastroke.jpg",
+        category: "aquatics",
+    },
+    {
+        title: "Freestyle (50*4m)",
+        description:
+            "a swimming stroke performed face down, in which both arms are thrust out at the sides at the same time.",
+        img: "../assets/images/swimming.jpg",
+        category: "teamevents",
+    },
+    {
+        title: "Medley (50*4m)",
+        description:
+            "a swimming stroke performed face down, in which both arms are thrust out at the sides at the same time.",
+        img: "../assets/images/breastroke.jpg",
+        category: "teamevents",
     },
 
     {
         title: "Benchpress",
         description:
             "The bench press is a compound exercise that targets the muscles of the upper body. It involves lying on a bench and pressing weight upward.",
-        img: "../assets/images/powerlifting.jpg",
+        img: "../assets/images/benchpress.jpg",
         category: "Powerlifting",
     },
     {
         title: "Deadlift",
         description:
             "The deadlift is a movement in which your hips hinge backward to lower down and pick up a weighted barbell or kettlebell from the floor.",
-        img: "../assets/images/powerlifting.jpg",
+        img: "../assets/images/deadlift.jpg",
         category: "Powerlifting",
     },
     {
         title: "Squats",
         description:
             "A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up.",
-        img: "../assets/images/powerlifting.jpg",
+        img: "../assets/images/squats.png",
         category: "Powerlifting",
     },
     {
