@@ -190,10 +190,12 @@ section {
 }
 
 .header__img img {
+    position: relative;
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 60%;
 }
 @media (max-width: 549px) {
     #asmita-text-footer > * {
@@ -392,6 +394,16 @@ section {
     display: inline-block;
 }
 
+.footer-row-flex > .row > * {
+    flex: 1 1 0px;
+}
+.footer-row-flex > .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 @media screen and (min-width: 1493px) {
     .section-title {
         font-size: 5vw;
@@ -402,6 +414,28 @@ section {
     }
 }
 
+@media screen and (max-width: 1031px) {
+    .footer-row-flex > .row :nth-child(1) {
+        flex-basis: 45%;
+    }
+    .footer-row-flex > .row :nth-child(2) {
+        order: 2;
+    }
+    .footer-row-flex > .row :nth-child(3) {
+        order: 3;
+    }
+    .footer-row-flex > .row :nth-child(4) {
+        order: 4;
+    }
+    .footer-row-flex > .row :nth-child(5) {
+        order: 1;
+        flex-basis: 45%;
+    }
+    .footer-images > img {
+        width: 40%;
+    }
+}
+
 @media screen and (max-width: 993px) {
     .footer-images {
         display: flex;
@@ -409,9 +443,7 @@ section {
         justify-content: center;
         align-items: center;
     }
-    .footer-images > * {
-        width: 25%;
-    }
+
     #helllo {
         display: flex;
         justify-content: center;
@@ -433,7 +465,7 @@ section {
 
 .footer-title-and-text {
     position: relative;
-    bottom: 40px;
+    bottom: 80px;
     text-align: center;
 }
 @media screen and (max-width: 879px) {
@@ -594,6 +626,9 @@ section {
     }
     .sponsor-footer-paraa {
         font-size: 17px !important;
+    }
+    .footer-contact .paraa {
+        font-size: 15px !important;
     }
 }
 @media screen and (max-width: 500px) {
