@@ -47,10 +47,14 @@ body {
     font-family: "Open Sans", sans-serif;
     line-height: 1.5;
 }
+
+.navbar {
+    background-color: #063034;
+}
 .contact-bg {
     height: 40vh;
     width: 100vw;
-    background-color: #063034;
+    background-color: #0e484d;
     background-position: 50% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -60,6 +64,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 
 .contact-bg h3 {
