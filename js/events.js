@@ -245,20 +245,6 @@ function setSection(data, category) {
     console.log("Setting the cards inside section");
     document.getElementById(category).checked = true;
     let content = "";
-    data.map((c) => {
-        content += `<div class="sports-card-container" style="background-image: url(${c.img});">
-                <div class="sports-card">
-                    <h4 class="sports-card-title">
-                        ${capitalizeFirstLetter(c.title)}
-                    </h4>
-                    <p class="sports-card-description">
-                        ${c.description}
-                    </p>
-                </div>
-                <div class="sports-card-anim-block-1"></div>
-                <div class="sports-card-anim-block-2"></div>
-            </div>`;
-    });
     if(category=='all'){
         additionalData.map((c) => {
             content += `<div class="sports-card-container" onClick="onTabSelect('${c.title}')" style="background-image: url(${c.img});">
@@ -275,6 +261,21 @@ function setSection(data, category) {
                 </div>`;
         });
     }
+    data.map((c) => {
+        content += `<div class="sports-card-container" style="background-image: url(${c.img});">
+                <div class="sports-card">
+                    <h4 class="sports-card-title">
+                        ${capitalizeFirstLetter(c.title)}
+                    </h4>
+                    <p class="sports-card-description">
+                        ${c.description}
+                    </p>
+                </div>
+                <div class="sports-card-anim-block-1"></div>
+                <div class="sports-card-anim-block-2"></div>
+            </div>`;
+    });
+    
     document.getElementById("sports-container").innerHTML = content;
 }
 
