@@ -278,7 +278,7 @@ section {
 }
 
 .iiits_view > .row > * {
-    flex: 1 1 11%;
+    flex-basis: 10%;
 }
 .iiits_view > .row > .tile {
     display: flex;
@@ -293,6 +293,17 @@ section {
 .iiits_view > .row > .tile > p {
     font-size: small;
     color: rgb(70, 68, 67);
+}
+
+@media screen and (max-width: 1243px) {
+    .iiits_view > .row {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 911px) {
+    .iiits_view > .row > .tile > img {
+        width: 90%;
+    }
 }
 
 .about__txt {
