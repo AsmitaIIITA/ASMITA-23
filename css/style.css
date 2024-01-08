@@ -240,6 +240,11 @@ section {
 }
 
 /* about ********/
+
+.about-main {
+    padding-top: 150px;
+}
+
 .about .section-title {
     text-align: left;
 }
@@ -247,6 +252,47 @@ section {
 .about__txt {
     width: calc(50% - 35px);
     height: auto;
+}
+
+.participating_iiits {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: rgba(152, 138, 109, 0.751);
+    font-weight: 800;
+    height: 120vh;
+}
+
+.iiits_view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iiits_view > .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.iiits_view > .row > * {
+    flex: 1 1 11%;
+}
+.iiits_view > .row > .tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.iiits_view > .row > .tile > img {
+    background-color: white;
+    width: 80%;
+}
+.iiits_view > .row > .tile > p {
+    font-size: small;
+    color: rgb(70, 68, 67);
 }
 
 .about__txt {
