@@ -249,6 +249,12 @@ section {
     font-size: 25px;
 }
 
+.team-arrow-image {
+    width: 220px;
+    padding-top: 100px;
+    filter: brightness(0) invert(1);
+}
+
 .past_sponser .galleryrow {
     width: 100%;
 }
@@ -420,11 +426,15 @@ section {
         position: relative;
         bottom: 50px;
     }
+    .team-arrow-image {
+        width: 150px;
+    }
 }
 
 .footer-title-and-text {
     position: relative;
     bottom: 40px;
+    text-align: center;
 }
 @media screen and (max-width: 879px) {
     #helllo,
@@ -465,6 +475,10 @@ section {
         position: relative;
         bottom: 30px;
     }
+
+    .img-team-png > img {
+        width: 100% !important;
+    }
 }
 
 @media screen and (max-width: 1111px) {
@@ -483,11 +497,17 @@ section {
 }
 
 @media screen and (max-width: 991px) {
-    .section-title-location {
-        text-align: right;
-    }
     .section-location {
         bottom: 180px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-location .paraa {
+        width: 100%;
+        position: relative;
+        right: 50px;
     }
     .section-sponsor {
         bottom: 35px !important;
@@ -513,6 +533,9 @@ section {
 }
 
 @media screen and (max-width: 701px) {
+    .section-employee {
+        bottom: 200px !important;
+    }
     .section-location {
         padding-bottom: 100px !important;
     }
