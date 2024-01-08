@@ -232,6 +232,13 @@ section {
     z-index: -1;
 }
 
+.section-title-location {
+    text-align: center;
+}
+.location__text__date {
+    text-align: center;
+}
+
 /* about ********/
 .about .section-title {
     text-align: left;
@@ -437,6 +444,13 @@ section {
 }
 
 @media screen and (max-width: 993px) {
+    .section-employee .location__text {
+        padding-left: 100px;
+    }
+    .section-employee .location__text__date {
+        padding-right: 80px;
+    }
+
     .footer-images {
         display: flex;
         flex-wrap: wrap;
