@@ -422,6 +422,10 @@ section {
     }
 }
 
+.footer-title-and-text {
+    position: relative;
+    bottom: 40px;
+}
 @media screen and (max-width: 879px) {
     #helllo,
     .footer-images,
@@ -434,6 +438,9 @@ section {
     }
     .footer-title-main {
         padding-top: 30px !important;
+    }
+    .footer-title-and-text {
+        bottom: 10px !important;
     }
 }
 
@@ -484,6 +491,9 @@ section {
     }
     .section-sponsor {
         bottom: 35px !important;
+    }
+    .footer-title-and-text {
+        bottom: -42px;
     }
     .sponsor-footer-images {
         position: relative;
