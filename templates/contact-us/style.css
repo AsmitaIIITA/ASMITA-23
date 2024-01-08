@@ -63,11 +63,9 @@ body {
 }
 
 .contact-bg h3 {
-    
     font-weight: 400;
 }
 .contact-bg h2 {
-    
     text-transform: uppercase;
     padding: 0.4rem 0;
     letter-spacing: 4px;
@@ -211,7 +209,6 @@ body {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
-        
     }
     .contact-info {
         display: grid;
@@ -235,16 +232,17 @@ body {
         grid-template-columns: repeat(4, 1fr);
     }
 }
-.headd{
+.headd {
     font-size: 25px;
 }
-.paraa{
+.paraa {
     font-size: 15px;
 }
 @media screen and (max-width: 600px) {
-    .headd{
-    font-size: 15px;}
-    .paraa{
+    .headd {
+        font-size: 15px;
+    }
+    .paraa {
         font-size: 12px;
     }
 }

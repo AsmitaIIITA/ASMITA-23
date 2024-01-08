@@ -441,8 +441,10 @@ section {
     .sponsor-footer-hr {
         display: none !important;
     }
-    .sponsor-footer-images {
+    .sponsor-footer-section {
         border-top: 1px solid rgba(118, 118, 118, 0.337);
+        padding-top: 30px;
+        margin-top: 40px;
     }
     .footer-title-main {
         padding-top: 30px !important;
