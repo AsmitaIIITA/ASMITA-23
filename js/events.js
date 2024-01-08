@@ -219,15 +219,37 @@ let data = [
         category: "teamevents",
     },
 ];
+let additionalData = [
+    {
+        title: "aquatics",
+        description: "Click Here To View All Aquatics Events",
+        img: "../assets/images/swimming.jpg"
+    },
+    {
+        title: "athletics",
+        description: "Click Here To View All Athletics Events",
+        img: "../assets/images/athletics.jpg"
+    },
+    {
+        title: "Powerlifting",
+        description: "Click Here To View All Powerlifting Events",
+        img: "../assets/images/benchpress.jpg"
+    }
+]
+function capitalizeFirstLetter(str) {
+    console.log( str.charAt(0).toUpperCase() + str.slice(1))
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
-function setSection(data) {
+function setSection(data, category) {
     console.log("Setting the cards inside section");
+    document.getElementById(category).checked = true;
     let content = "";
     data.map((c) => {
         content += `<div class="sports-card-container" style="background-image: url(${c.img});">
                 <div class="sports-card">
                     <h4 class="sports-card-title">
-                        ${c.title}
+                        ${capitalizeFirstLetter(c.title)}
                     </h4>
                     <p class="sports-card-description">
                         ${c.description}
@@ -237,19 +259,41 @@ function setSection(data) {
                 <div class="sports-card-anim-block-2"></div>
             </div>`;
     });
+    if(category=='all'){
+        additionalData.map((c) => {
+            content += `<div class="sports-card-container" onClick="onTabSelect('${c.title}')" style="background-image: url(${c.img});">
+                    <div class="sports-card">
+                        <h4 class="sports-card-title">
+                        ${capitalizeFirstLetter(c.title)}
+                        </h4>
+                        <p class="sports-card-description">
+                            ${c.description}
+                        </p>
+                    </div>
+                    <div class="sports-card-anim-block-1"></div>
+                    <div class="sports-card-anim-block-2"></div>
+                </div>`;
+        });
+    }
     document.getElementById("sports-container").innerHTML = content;
 }
 
-function onTabSelect(event) {
-    if (event.value === "all") {
-        return setSection(data);
+function onTabSelect(category) {
+    console.log(category);
+    if (category === "all") {
+        console.log("check213")
+        let filteredData = [...data];
+        filteredData = filteredData.filter((c) => {
+            return c.category === "teamevents" || c.category === "Solo";
+        })
+        return setSection(filteredData,'all');    
     }
     let filteredData = [...data];
     filteredData = filteredData.filter((c) => {
-        return c.category === event.value;
+        return c.category === category;
     });
     console.log(filteredData);
-    return setSection(filteredData);
+    return setSection(filteredData,category);
 }
 
-setSection(data);
+setSection(data,'all');
