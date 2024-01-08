@@ -473,7 +473,7 @@ section {
     }
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 991px) {
     .section-title-location {
         text-align: right;
     }
@@ -491,6 +491,12 @@ section {
         height: 400px !important;
         width: 85%;
         right: 33px;
+    }
+    .navbar-flex-row {
+        justify-content: space-between;
+    }
+    .navbar-brand {
+        order: 2;
     }
 }
 
