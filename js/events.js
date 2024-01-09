@@ -76,7 +76,7 @@ let data = [
         description:
             "The 4 × 100 metres relay or sprint relay is an athletics track event run in lanes over one lap of the track with four runners completing 100 metres each.",
         img: "../assets/images/athletics.jpg",
-        category: "teamevents",
+        category: "athletics",
     },
 
     {
@@ -166,14 +166,14 @@ let data = [
         description:
             "a swimming stroke performed face down, in which both arms are thrust out at the sides at the same time.",
         img: "../assets/images/swimming.jpg",
-        category: "teamevents",
+        category: "aquatics",
     },
     {
         title: "Medley (50*4m)",
         description:
             "a swimming stroke performed face down, in which both arms are thrust out at the sides at the same time.",
         img: "../assets/images/breastroke.jpg",
-        category: "teamevents",
+        category: "aquatics",
     },
 
     {
@@ -297,4 +297,8 @@ function onTabSelect(category) {
     return setSection(filteredData,category);
 }
 
-setSection(data,'all');
+let filteredData = [...data];
+        filteredData = filteredData.filter((c) => {
+            return c.category === "teamevents" || c.category === "Solo";
+        })
+         setSection(filteredData,'all');   
