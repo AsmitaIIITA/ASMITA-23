@@ -48,7 +48,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-#helllo{
+#helllo {
     width: 99vw;
 }
 
@@ -58,7 +58,6 @@ body {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    
 }
 
 .container .row:first-child {
@@ -80,8 +79,6 @@ body {
     user-select: none;
     text-align: center;
 }
-
-
 
 #team .team-description {
     margin: 0 auto;
@@ -128,7 +125,6 @@ body {
     border-top: 0.1px solid rgba(0, 0, 0, 0.1);
 }
 
-
 @media only screen and (max-width: 565px) {
     .container .row:last-child {
         padding: 10px;
@@ -142,7 +138,7 @@ body {
 }
 
 p {
-    line-height: 10px;
+    line-height: 26px;
     margin-bottom: 0px;
 }
 
@@ -259,9 +255,8 @@ p + p {
 
 .container-cards a:nth-child(3) {
     transition: 1s ease-out all;
-} */
-
-.fab {
+}
+*/ .fab {
     transition: inherit;
 }
 
@@ -494,14 +489,14 @@ p span {
     padding: 30px 0;
     width: auto;
     height: auto;
-   
+
     font-weight: bold;
     text-align: center;
     padding-bottom: 15px;
 }
 .text2 {
     font-size: 16px;
-   
+
     text-align: center;
 }
 .box:focus,
