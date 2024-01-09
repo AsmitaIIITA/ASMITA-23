@@ -135,12 +135,24 @@ section {
     position: relative;
     bottom: 80px;
     margin: 5px;
-    font-size: 45px;
+    font-size: 80px;
     text-align: center;
     color: var(--pr-color);
     text-transform: uppercase;
     mix-blend-mode: difference;
     z-index: 2;
+}
+.title_date {
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 1230px) {
+    .title {
+        font-size: 60px;
+    }
+    .title_date {
+        font-size: 25px;
+    }
 }
 @media only screen and (max-width: 700px) {
     .title {
@@ -154,7 +166,7 @@ section {
         z-index: 2;
     }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 378px) {
     .title {
         position: relative;
         margin: 0;
@@ -165,13 +177,16 @@ section {
         mix-blend-mode: difference;
         z-index: 2;
     }
+    .title_date {
+        text-align: center;
+        font-size: 15px;
+    }
 }
 
 .title_paralax {
     display: inline-block;
     will-change: transform;
     font-family: "ItialianPlateNo2", sans-serif;
-    font-size: 4vw;
 }
 
 .title .stroke {
