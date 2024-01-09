@@ -785,6 +785,9 @@ section {
     .footer-contact .paraa {
         font-size: 15px !important;
     }
+    .footer-images img {
+        flex-basis: 80% !important;
+    }
 }
 @media screen and (max-width: 500px) {
     .heightset {
