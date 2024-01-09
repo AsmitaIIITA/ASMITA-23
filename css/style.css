@@ -256,11 +256,14 @@ section {
 
 .participating_iiits {
     position: relative;
-    top: 200px;
+    top: 100px;
     text-align: center;
     color: rgba(152, 138, 109, 0.751);
     font-weight: 800;
-    height: 120vh;
+}
+
+.participating_iiits_height {
+    height: 1700px;
 }
 
 .iiits_view {
@@ -274,37 +277,118 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 50%;
+    flex-wrap: wrap;
 }
 
-.iiits_view > .row > * {
-    flex-basis: 10%;
-}
 .iiits_view > .row > .tile {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-basis: 20%;
+    height: 100%;
+    overflow: hidden;
 }
+
 .iiits_view > .row > .tile > img {
     background-color: white;
-    width: 80%;
+    object-fit: cover;
+    width: 70%;
+    flex-basis: 80%;
 }
 .iiits_view > .row > .tile > p {
-    font-size: small;
+    font-size: 20px;
+    flex-basis: 20%;
     color: rgb(70, 68, 67);
 }
 
-@media screen and (max-width: 1243px) {
-    .iiits_view > .row {
-        width: 80%;
+@media screen and (max-width: 1994px) {
+    .iiits_view > .row > .tile {
+        flex-basis: 25%;
+    }
+    .participating_iiits_height {
+        height: 1850px;
     }
 }
-@media screen and (max-width: 911px) {
+@media screen and (max-width: 1345px) {
+    .iiits_view > .row > .tile {
+        flex-basis: 33.33%;
+    }
+    .participating_iiits_height {
+        height: 2000px;
+    }
+}
+
+@media screen and (max-width: 1243px) {
+    .iiits_view img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .iiits_view > .row {
+        width: 100%;
+    }
+    .iiits_view > .row > .tile {
+        flex-basis: 20%;
+    }
+    .participating_iiits_height {
+        height: 1395px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .participating_iiits_height {
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .participating_iiits_height {
+        height: 1225px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .participating_iiits_height {
+        bottom: 200px;
+    }
+}
+@media screen and (max-width: 690px) {
+    .iiits_view > .row > .tile {
+        flex-basis: 25%;
+    }
+    .participating_iiits_height {
+        height: 1420px;
+    }
+    .iiits_view > .row > .tile > p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 528px) {
+    .iiits_view > .row > .tile {
+        flex-basis: 33.33%;
+    }
+    .participating_iiits_height {
+        height: 1600px;
+    }
+}
+
+@media screen and (max-width: 442px) {
+    .participating_iiits_height {
+        height: 1300px;
+    }
+}
+
+@media screen and (max-width: 342px) {
+}
+/* @media screen and (max-width: 911px) {
     .iiits_view > .row > .tile > img {
         width: 90%;
     }
-}
+} */
 
 .about__txt {
     padding-right: 70px;
