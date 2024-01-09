@@ -237,7 +237,7 @@ let additionalData = [
     }
 ]
 function capitalizeFirstLetter(str) {
-    console.log( str.charAt(0).toUpperCase() + str.slice(1))
+    console.log(str.charAt(0).toUpperCase() + str.slice(1))
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
@@ -245,7 +245,7 @@ function setSection(data, category) {
     console.log("Setting the cards inside section");
     document.getElementById(category).checked = true;
     let content = "";
-    if(category=='all'){
+    if (category == 'all') {
         additionalData.map((c) => {
             content += `<div class="sports-card-container" onClick="onTabSelect('${c.title}')" style="background-image: url(${c.img});">
                     <div class="sports-card">
@@ -275,7 +275,7 @@ function setSection(data, category) {
                 <div class="sports-card-anim-block-2"></div>
             </div>`;
     });
-    
+
     document.getElementById("sports-container").innerHTML = content;
 }
 
@@ -287,18 +287,18 @@ function onTabSelect(category) {
         filteredData = filteredData.filter((c) => {
             return c.category === "teamevents" || c.category === "Solo";
         })
-        return setSection(filteredData,'all');    
+        return setSection(filteredData, 'all');
     }
     let filteredData = [...data];
     filteredData = filteredData.filter((c) => {
         return c.category === category;
     });
     console.log(filteredData);
-    return setSection(filteredData,category);
+    return setSection(filteredData, category);
 }
 
 let filteredData = [...data];
-        filteredData = filteredData.filter((c) => {
-            return c.category === "teamevents" || c.category === "Solo";
-        })
-         setSection(filteredData,'all');   
+filteredData = filteredData.filter((c) => {
+    return c.category === "teamevents" || c.category === "Solo";
+})
+setSection(filteredData, 'all');   
