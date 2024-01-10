@@ -146,6 +146,10 @@ section {
     font-size: 40px;
 }
 
+.clickable-cards:hover {
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1230px) {
     .title {
         font-size: 60px;

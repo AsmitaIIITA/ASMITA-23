@@ -295,7 +295,7 @@ function setSection(data, category) {
     let content = "";
     if (category == "all") {
         additionalData.map((c) => {
-            content += `<div class="sports-card-container" onClick="onTabSelect('${
+            content += `<div class="sports-card-container clickable-cards" onClick="onTabSelect('${
                 c.title
             }')" style="background-image: url(${c.img});">
                     <div class="sports-card">
