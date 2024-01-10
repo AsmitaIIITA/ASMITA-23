@@ -526,3 +526,9 @@ p span {
 .team-images > div {
     flex-basis: 50%;
 }
+
+@media screen and (max-width: 558px) {
+    /* .faculty-heads {
+        flex-basis: 100% !important;
+    } */
+}
