@@ -92,13 +92,7 @@ let data = [
         img: "../assets/images/athletics.jpg",
         category: "athletics",
     },
-    {
-        title: "800m",
-        description:
-            "The 800 meters race is a thrilling spectacle, capturing the essence of pure speed and determination in the world of sprinting.",
-        img: "../assets/images/athletics.jpg",
-        category: "athletics",
-    },
+
     {
         title: "1500m",
         description:
