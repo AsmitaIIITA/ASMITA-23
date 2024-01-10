@@ -517,3 +517,12 @@ p span {
 
     height: 100%;
 }
+
+.team-images {
+    display: flex;
+    justify-content: center;
+}
+
+.team-images > div {
+    flex-basis: 50%;
+}
