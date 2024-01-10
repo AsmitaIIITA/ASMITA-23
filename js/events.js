@@ -65,16 +65,64 @@ let data = [
         category: "Solo",
     },
     {
-        title: "Athletics",
+        title: "100m",
         description:
-            "Athletics include 100m, 200m, 400m, 800m, 1500m, 5000 medal races.",
+            "The 100 meters race is a thrilling spectacle, capturing the essence of pure speed and determination in the world of sprinting.",
         img: "../assets/images/athletics.jpg",
         category: "athletics",
     },
     {
-        title: "4x100m, 4x400m",
+        title: "200m",
+        description:
+            "The 200 meters race is a thrilling spectacle, capturing the essence of pure speed and determination in the world of sprinting.",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+    {
+        title: "400m",
+        description:
+            "The 400 meters race is a thrilling spectacle, capturing the essence of pure speed and determination in the world of sprinting.",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+    {
+        title: "800m",
+        description:
+            "The 800 meters race is a thrilling spectacle, capturing the essence of pure speed and determination in the world of sprinting.",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+    {
+        title: "800m",
+        description:
+            "The 800 meters race is a thrilling spectacle, capturing the essence of pure speed and determination in the world of sprinting.",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+    {
+        title: "1500m",
+        description:
+            "Dynamic middle-distance event where athletes blend speed and endurance over three and three-quarter laps, showcasing strategic prowess and athletic finesse in their sprint towards the finish line.",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+    {
+        title: "5000m",
+        description: "All about showing off your stamina!",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+    {
+        title: "4x100m",
         description:
             "The 4 × 100 metres relay or sprint relay is an athletics track event run in lanes over one lap of the track with four runners completing 100 metres each.",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+    {
+        title: "4x400m",
+        description:
+            "An exhilirating relay race where each team member covers a distance of 400m before passing on the baton to the next member.",
         img: "../assets/images/athletics.jpg",
         category: "athletics",
     },
@@ -223,21 +271,21 @@ let additionalData = [
     {
         title: "aquatics",
         description: "Click Here To View All Aquatics Events",
-        img: "../assets/images/swimming.jpg"
+        img: "../assets/images/swimming.jpg",
     },
     {
         title: "athletics",
         description: "Click Here To View All Athletics Events",
-        img: "../assets/images/athletics.jpg"
+        img: "../assets/images/athletics.jpg",
     },
     {
         title: "Powerlifting",
         description: "Click Here To View All Powerlifting Events",
-        img: "../assets/images/benchpress.jpg"
-    }
-]
+        img: "../assets/images/benchpress.jpg",
+    },
+];
 function capitalizeFirstLetter(str) {
-    console.log(str.charAt(0).toUpperCase() + str.slice(1))
+    console.log(str.charAt(0).toUpperCase() + str.slice(1));
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
@@ -245,9 +293,11 @@ function setSection(data, category) {
     console.log("Setting the cards inside section");
     document.getElementById(category).checked = true;
     let content = "";
-    if (category == 'all') {
+    if (category == "all") {
         additionalData.map((c) => {
-            content += `<div class="sports-card-container" onClick="onTabSelect('${c.title}')" style="background-image: url(${c.img});">
+            content += `<div class="sports-card-container" onClick="onTabSelect('${
+                c.title
+            }')" style="background-image: url(${c.img});">
                     <div class="sports-card">
                         <h4 class="sports-card-title">
                         ${capitalizeFirstLetter(c.title)}
@@ -262,7 +312,9 @@ function setSection(data, category) {
         });
     }
     data.map((c) => {
-        content += `<div class="sports-card-container" style="background-image: url(${c.img});">
+        content += `<div class="sports-card-container" style="background-image: url(${
+            c.img
+        });">
                 <div class="sports-card">
                     <h4 class="sports-card-title">
                         ${capitalizeFirstLetter(c.title)}
@@ -282,12 +334,12 @@ function setSection(data, category) {
 function onTabSelect(category) {
     console.log(category);
     if (category === "all") {
-        console.log("check213")
+        console.log("check213");
         let filteredData = [...data];
         filteredData = filteredData.filter((c) => {
             return c.category === "teamevents" || c.category === "Solo";
-        })
-        return setSection(filteredData, 'all');
+        });
+        return setSection(filteredData, "all");
     }
     let filteredData = [...data];
     filteredData = filteredData.filter((c) => {
@@ -300,5 +352,5 @@ function onTabSelect(category) {
 let filteredData = [...data];
 filteredData = filteredData.filter((c) => {
     return c.category === "teamevents" || c.category === "Solo";
-})
-setSection(filteredData, 'all');   
+});
+setSection(filteredData, "all");
