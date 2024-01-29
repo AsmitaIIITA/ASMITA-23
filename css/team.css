@@ -441,7 +441,7 @@ p span {
     background-color: white;
 }
 .img-box-1 {
-    height: 300px;
+    height: 100%;
     background: #f23a2e; /* fallback for old browsers */
     background: -webkit-linear-gradient(
         to right,
@@ -472,8 +472,8 @@ p span {
     flex-grow: 0;
     position: relative;
     margin: 10px;
-    height: 300px;
-    max-height: 300px; /*remove this later */
+    height: 405px;
+    max-height: 405px; /*remove this later */
     overflow: hidden;
     background-position: top;
     background-size: cover;
