@@ -48,13 +48,16 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+#helllo {
+    width: 99vw;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    
 }
 
 .container .row:first-child {
@@ -75,9 +78,6 @@ body {
     font-weight: 400;
     user-select: none;
     text-align: center;
-}
-
-#teamHeading span {
 }
 
 #team .team-description {
@@ -125,9 +125,6 @@ body {
     border-top: 0.1px solid rgba(0, 0, 0, 0.1);
 }
 
-.fab:hover {
-}
-
 @media only screen and (max-width: 565px) {
     .container .row:last-child {
         padding: 10px;
@@ -141,7 +138,7 @@ body {
 }
 
 p {
-    line-height: 10px;
+    line-height: 26px;
     margin-bottom: 0px;
 }
 
@@ -237,17 +234,17 @@ p + p {
 }
 
 .container-cards a {
-    /* opacity: 0; */
+    opacity: 0;
     top: -70px;
     transition: 0.3s ease-out all;
-    /* background: #fff; */
+    background: #fff;
     padding: 12px 20px;
     text-decoration: none;
     color: black !important;
     font-size: 18px;
     border-bottom: 1px solid #f3f3f5;
 }
-
+ */
 .container-cards a:nth-child(1) {
     transition: 0.5s ease-out all;
 }
@@ -258,9 +255,8 @@ p + p {
 
 .container-cards a:nth-child(3) {
     transition: 1s ease-out all;
-} */
-
-.fab {
+}
+*/ .fab {
     transition: inherit;
 }
 
@@ -433,9 +429,6 @@ p span {
 
     /* margin: 100px; */
 }
-.member-socials:hover {
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
-}
 
 .member-card:hover .member-socials {
     max-height: 50px;
@@ -448,7 +441,7 @@ p span {
     background-color: white;
 }
 .img-box-1 {
-    height: 300px;
+    height: 100%;
     background: #f23a2e; /* fallback for old browsers */
     background: -webkit-linear-gradient(
         to right,
@@ -479,8 +472,8 @@ p span {
     flex-grow: 0;
     position: relative;
     margin: 10px;
-    height: 300px;
-    max-height: 300px; /*remove this later */
+    height: 405px;
+    max-height: 405px; /*remove this later */
     overflow: hidden;
     background-position: top;
     background-size: cover;
@@ -496,14 +489,14 @@ p span {
     padding: 30px 0;
     width: auto;
     height: auto;
-    color: #0f1322;
+
     font-weight: bold;
     text-align: center;
     padding-bottom: 15px;
 }
 .text2 {
     font-size: 16px;
-    color: #0f1322;
+
     text-align: center;
 }
 .box:focus,
@@ -523,4 +516,19 @@ p span {
     border-radius: 5px;
 
     height: 100%;
+}
+
+.team-images {
+    display: flex;
+    justify-content: center;
+}
+
+.team-images > div {
+    flex-basis: 50%;
+}
+
+@media screen and (max-width: 558px) {
+    /* .faculty-heads {
+        flex-basis: 100% !important;
+    } */
 }

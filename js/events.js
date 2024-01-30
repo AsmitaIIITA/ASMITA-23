@@ -51,13 +51,6 @@ let data = [
         category: "teamevents",
     },
     {
-        title: "Kho-Kho",
-        description:
-            "Like tag, the objective of Kho Kho is to tag or hunt down an opponent and score points. However, it is bound by a strict set of rules rather than being a free-for-all playground game.            ",
-        img: "../assets/images/kho-kho.png",
-        category: "teamevents",
-    },
-    {
         title: "Carrom",
         description:
             "Carrom is a tabletop game of Indian origin in which players flick discs, attempting to knock them to the corners of the board. ",
@@ -72,16 +65,58 @@ let data = [
         category: "Solo",
     },
     {
-        title: "Athletics",
+        title: "100m",
         description:
-            "Athletics include 100m, 200m, 400m, 800m, 1500m, 3000m medal races.",
+            "The 100 meters race is a thrilling spectacle, capturing the essence of pure speed and determination in the world of sprinting.",
         img: "../assets/images/athletics.jpg",
         category: "athletics",
     },
     {
-        title: "Relay",
+        title: "200m",
+        description:
+            "The 200 meters race is a thrilling spectacle, capturing the essence of pure speed and determination in the world of sprinting.",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+    {
+        title: "400m",
+        description:
+            "The 400 meters race is a thrilling spectacle, capturing the essence of pure speed and determination in the world of sprinting.",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+    {
+        title: "800m",
+        description:
+            "The 800 meters race is a thrilling spectacle, capturing the essence of pure speed and determination in the world of sprinting.",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+
+    {
+        title: "1500m",
+        description:
+            "Dynamic middle-distance event where athletes blend speed and endurance over three and three-quarter laps, showcasing strategic prowess and athletic finesse in their sprint towards the finish line.",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+    {
+        title: "5000m",
+        description: "All about showing off your stamina!",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+    {
+        title: "4x100m",
         description:
             "The 4 × 100 metres relay or sprint relay is an athletics track event run in lanes over one lap of the track with four runners completing 100 metres each.",
+        img: "../assets/images/athletics.jpg",
+        category: "athletics",
+    },
+    {
+        title: "4x400m",
+        description:
+            "An exhilirating relay race where each team member covers a distance of 400m before passing on the baton to the next member.",
         img: "../assets/images/athletics.jpg",
         category: "athletics",
     },
@@ -116,6 +151,27 @@ let data = [
         img: "../assets/images/longJump.jpg",
         category: "athletics",
     },
+    {
+        title: "High Jump",
+        description:
+            "The high jump is a track and field event in which competitors must jump unaided over a horizontal bar placed at measured heights without dislodging it.",
+        img: "../assets/images/high-jump.jpg",
+        category: "athletics",
+    },
+    {
+        title: "Triple Jump",
+        description:
+            "The triple jump, sometimes referred to as the hop, step and jump or the hop, skip and jump, is a track and field event, similar to the long jump.",
+        img: "../assets/images/triple-jump.jpg",
+        category: "athletics",
+    },
+    {
+        title: "Hurdles (110m)",
+        description:
+            "Hurdling is the act of running and jumping over an obstacle at speed.",
+        img: "../assets/images/hurdles.jpg",
+        category: "athletics",
+    },
 
     {
         title: "Free Style",
@@ -129,7 +185,7 @@ let data = [
         title: "Backstroke",
         description:
             "a swimming stroke executed on the back and usually consisting of alternating circular arm pulls and a flutter kick.",
-        img: "../assets/images/swimming.jpg",
+        img: "../assets/images/backstroke.jpg",
         category: "aquatics",
     },
 
@@ -137,7 +193,28 @@ let data = [
         title: "Butterfly",
         description:
             "a swimming stroke performed face down, in which both arms are thrust out at the sides at the same time.",
+        img: "../assets/images/butterfly.jpeg",
+        category: "aquatics",
+    },
+    {
+        title: "Breastroke",
+        description:
+            "a swimming stroke performed face down, in which both arms are thrust out at the sides at the same time.",
+        img: "../assets/images/breastroke.jpg",
+        category: "aquatics",
+    },
+    {
+        title: "Freestyle (50*4m)",
+        description:
+            "a swimming stroke performed face down, in which both arms are thrust out at the sides at the same time.",
         img: "../assets/images/swimming.jpg",
+        category: "aquatics",
+    },
+    {
+        title: "Medley (50*4m)",
+        description:
+            "a swimming stroke performed face down, in which both arms are thrust out at the sides at the same time.",
+        img: "../assets/images/breastroke.jpg",
         category: "aquatics",
     },
 
@@ -145,33 +222,96 @@ let data = [
         title: "Benchpress",
         description:
             "The bench press is a compound exercise that targets the muscles of the upper body. It involves lying on a bench and pressing weight upward.",
-        img: "../assets/images/powerlifting.jpg",
+        img: "../assets/images/benchpress.jpg",
         category: "Powerlifting",
     },
     {
         title: "Deadlift",
         description:
             "The deadlift is a movement in which your hips hinge backward to lower down and pick up a weighted barbell or kettlebell from the floor.",
-        img: "../assets/images/powerlifting.jpg",
+        img: "../assets/images/deadlift.jpg",
         category: "Powerlifting",
     },
     {
         title: "Squats",
         description:
             "A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up.",
-        img: "../assets/images/powerlifting.jpg",
+        img: "../assets/images/squats.png",
         category: "Powerlifting",
     },
+    {
+        title: "Lawn Tennis",
+        description:
+            "Tennis is a racket sport that can be played individually against a single opponent or between two teams of two players each.",
+        img: "../assets/images/tennis.jpg",
+        category: "Solo",
+    },
+    {
+        title: "Badminton",
+        description:
+            "Badminton is a racquet sport played using racquets to hit a shuttlecock across a net.",
+        img: "../assets/images/badminton.jpg",
+        category: "Solo",
+    },
+    {
+        title: "Tug of War",
+        description:
+            "Tug of war is a sport that pits two teams against each other in a test of strength: teams pull on opposite ends of a rope, with the goal being to bring the rope a certain distance in one direction against the force of the opposing team's pull.",
+        img: "../assets/images/tug-of-war.jpg",
+        category: "teamevents",
+    },
 ];
+let additionalData = [
+    {
+        title: "aquatics",
+        description: "Click Here To View All Aquatics Events",
+        img: "../assets/images/swimming.jpg",
+    },
+    {
+        title: "athletics",
+        description: "Click Here To View All Athletics Events",
+        img: "../assets/images/athletics.jpg",
+    },
+    {
+        title: "Powerlifting",
+        description: "Click Here To View All Powerlifting Events",
+        img: "../assets/images/benchpress.jpg",
+    },
+];
+function capitalizeFirstLetter(str) {
+    console.log(str.charAt(0).toUpperCase() + str.slice(1));
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
-function setSection(data) {
+function setSection(data, category) {
     console.log("Setting the cards inside section");
+    document.getElementById(category).checked = true;
     let content = "";
+    if (category == "all") {
+        additionalData.map((c) => {
+            content += `<div class="sports-card-container clickable-cards" onClick="onTabSelect('${
+                c.title
+            }')" style="background-image: url(${c.img});">
+                    <div class="sports-card">
+                        <h4 class="sports-card-title">
+                        ${capitalizeFirstLetter(c.title)}
+                        </h4>
+                        <p class="sports-card-description">
+                            ${c.description}
+                        </p>
+                    </div>
+                    <div class="sports-card-anim-block-1"></div>
+                    <div class="sports-card-anim-block-2"></div>
+                </div>`;
+        });
+    }
     data.map((c) => {
-        content += `<div class="sports-card-container" style="background-image: url(${c.img});">
+        content += `<div class="sports-card-container" style="background-image: url(${
+            c.img
+        });">
                 <div class="sports-card">
                     <h4 class="sports-card-title">
-                        ${c.title}
+                        ${capitalizeFirstLetter(c.title)}
                     </h4>
                     <p class="sports-card-description">
                         ${c.description}
@@ -181,19 +321,30 @@ function setSection(data) {
                 <div class="sports-card-anim-block-2"></div>
             </div>`;
     });
+
     document.getElementById("sports-container").innerHTML = content;
 }
 
-function onTabSelect(event) {
-    if (event.value === "all") {
-        return setSection(data);
+function onTabSelect(category) {
+    console.log(category);
+    if (category === "all") {
+        console.log("check213");
+        let filteredData = [...data];
+        filteredData = filteredData.filter((c) => {
+            return c.category === "teamevents" || c.category === "Solo";
+        });
+        return setSection(filteredData, "all");
     }
     let filteredData = [...data];
     filteredData = filteredData.filter((c) => {
-        return c.category === event.value;
+        return c.category === category;
     });
     console.log(filteredData);
-    return setSection(filteredData);
+    return setSection(filteredData, category);
 }
 
-setSection(data);
+let filteredData = [...data];
+filteredData = filteredData.filter((c) => {
+    return c.category === "teamevents" || c.category === "Solo";
+});
+setSection(filteredData, "all");
